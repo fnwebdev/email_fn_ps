@@ -1,12 +1,14 @@
 <!-- PRIMARY -->
 
+         
     <mj-section
-      name="primary"
-      padding="20px 0px 20px 0px"
-      background-color="#fff"
+      background-color="#ffffff"
+      padding="0px 0px 20px"
+      border="0px solid red"
     >
-      <mj-column>
-        <mj-text mj-class="primary-text" css-class="content-padding">
+      <mj-column width="" border="0px solid blue" >
+
+         <mj-text mj-class="primary-text" css-class="content-padding" border="10px solid blue" >
           <p style="font-weight: bold">Primary title here 😊</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor, risus et pharetra consectetur, dolor ligula tempor ipsum, eget fermentum ante eros non urna. Sed consequat felis sit amet enim volutpat maximus nec nec sem <a href="#">praesenta</a>. Sit amet molestie diam. Integer eget vulputate metus, ac sollicitudin sapien. Nulla eget purus venenatis, ornare felis eget, tempor ante. Donec placerat bibendum tellus congue lacinia. 
@@ -14,3 +16,4 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    

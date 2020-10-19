@@ -55,6 +55,24 @@
         line-height="150%"
       />
       <mj-class
+        name="order-text"
+        color="#000"
+        font-size="15px"
+        letter-spacing=""
+        font-family="arial"
+        font-weight=""
+        line-height="150%"
+      />
+      <mj-class
+        name="order-table"
+        color="#000"
+        font-size="12px"
+        letter-spacing=""
+        font-family="arial"
+        font-weight="normal"
+        line-height="250%"
+      />
+      <mj-class
         name="secondary-text"
         color="#000"
         font-size="14px"
@@ -124,7 +142,10 @@
     <mj-style>
       @media (min-width:480px) { 
         .content-padding, .content-padding td {
-      padding: 10px 40px !important; }
+          padding: 10px 40px !important; }
+        }
+        .order-table tr{
+          font-size: 18px !important;
         }
       @media only screen and (min-width:580px) { 
         .hide_on_mobile { display: block !important; } 
