@@ -1,6 +1,14 @@
-<mj-section name="secondary" padding="0px 0px 20px 0px" background-color="#fff">
-  <mj-column>
-  <mj-text mj-class="secondary-text" css-class="content-padding">
+<mj-section
+  background-color="#ffffff"
+  padding="0px 0px 20px"
+  border="0px solid red"
+>
+  <mj-column width="" border="0px solid blue">
+    <mj-text
+      mj-class="primary-text"
+      css-class="content-padding"
+      border="10px solid blue"
+    >
       <p style="font-weight: bold">📦 Detalles de tu pedido:</p>
       <p>
         • ID Pedido {order_name}<br>
@@ -9,7 +17,7 @@
         • Pago: {payment}
       </p>
     </mj-text>
-</mj-column>
+  </mj-column>
 </mj-section>
 
 <mj-section
@@ -102,10 +110,17 @@
   </mj-column>
 </mj-section>
 
-<mj-section name="secondary" padding="0px 0px 20px 0px" background-color="#fff">
-  <mj-column>
-      </mj-text>
-        <mj-text mj-class="secondary-text" css-class="content-padding">
+<mj-section
+  background-color="#ffffff"
+  padding="0px 0px 20px"
+  border="0px solid red"
+>
+  <mj-column width="" border="0px solid blue">
+    <mj-text
+      mj-class="primary-text"
+      css-class="content-padding"
+      border="10px solid blue"
+    >
       <p style="font-weight: bold">🚚 Información del envío</p>
       <p>
         • Transportista: {carrier}<br>
@@ -115,8 +130,7 @@
         {invoice_block_html}
       </p>
     </mj-text>
-    
-        <mj-text mj-class="secondary-text" css-class="content-padding">
+    <mj-text mj-class="secondary-text" css-class="content-padding">
       <p style="font-weight: bold">ℹ Más info</p>
       <p>
         • Localiza el envío desde aquí <a href="#">{followup}</a><br />
@@ -124,9 +138,130 @@
         • ¿Has comprado como invitado? sigue tu pedido desde nuestra sección
         <a href="#">{seguimiento de invitado}</a>.
       </p>
-      <p>¡Nos vemos pronto!</p>
+  </mj-column>
+</mj-section>
+
+<mj-section
+  background-color="#ffffff"
+  padding="0px 20px"
+  border="0px solid red"
+>
+  <mj-column width="" border-bottom="1px solid #ED2772" padding="0px">
+    <mj-text
+      align="left"
+      color="#000000"
+      padding-left="0px"
+      padding-right="0px"
+      padding-bottom="0px"
+      padding-top="0px"
+      mj-class="order-text"
+    >
+      <p style="font-weight: bold; font-size: 18px; margin-bottom: 5px">
+        Transporte
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section
+  background-color="#ffffff"
+  padding="0px 20px 20px"
+  border="0px solid red"
+>
+  <mj-column width="" border="0px solid blue" padding="0px">
+    <mj-text
+      align="left"
+      color="#000000"
+      padding-left="0px"
+      padding-right="0px"
+      padding-bottom="0px"
+      padding-top="0"
+      mj-class="order-text"
+    >
+      <p style="font-size: 14px">
+        Transportista: {carrier}<br />
+        Pago: {payment}
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section
+  background-color="#ffffff"
+  padding="0px 20px"
+  border="0px solid red"
+>
+  <mj-column width="" border-bottom="1px solid #ED2772" padding="0px">
+    <mj-text
+      align="left"
+      color="#000000"
+      padding-left="0px"
+      padding-right="0px"
+      padding-bottom="0px"
+      padding-top="0px"
+      mj-class="order-text"
+    >
+      <p style="font-weight: bold; font-size: 18px; margin-bottom: 5px">
+        Dirección de entrega
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section
+  background-color="#ffffff"
+  padding="0px 20px 20px"
+  border="0px solid red"
+>
+  <mj-column width="" border="0px solid blue" padding="0px">
+    <mj-text
+      align="left"
+      color="#000000"
+      padding-left="0px"
+      padding-right="0px"
+      padding-bottom="0px"
+      padding-top="0"
+      mj-class="order-text"
+    >
+      <p style="font-size: 14px">{delivery_block_html}</p>
     </mj-text>
   </mj-column>
 </mj-section>
 
-
+<mj-section
+  background-color="#ffffff"
+  padding="0px 20px"
+  border="0px solid red"
+>
+  <mj-column width="" border-bottom="1px solid #ED2772" padding="0px">
+    <mj-text
+      align="left"
+      color="#000000"
+      padding-left="0px"
+      padding-right="0px"
+      padding-bottom="0px"
+      padding-top="0px"
+      mj-class="order-text"
+    >
+      <p style="font-weight: bold; font-size: 18px; margin-bottom: 5px">
+        Dirección de facturación
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section
+  background-color="#ffffff"
+  padding="0px 20px 20px"
+  border="0px solid red"
+>
+  <mj-column width="" border="0px solid blue" padding="0px">
+    <mj-text
+      align="left"
+      color="#000000"
+      padding-left="0px"
+      padding-right="0px"
+      padding-bottom="0px"
+      padding-top="0"
+      mj-class="order-text"
+    >
+      <p style="font-size: 14px">{invoice_block_html}</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
