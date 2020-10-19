@@ -13,7 +13,7 @@
         <mj-text mj-class="footer-text" css-class="footer-text center-text">
           <p>
             Si quieres dejar de recibir estos emails,
-            <a href="https://mjml.io/" style="color: #656565; font-weight: bold"
+            <a href="#" style="color: #656565; font-weight: bold"
               >date de baja aquí</a
             >
           </p>
@@ -35,7 +35,7 @@
         </mj-text>
         <mj-image
           css-class=""
-          src="https://fantasynails.es/imagenes/email/footer/fantasy-grey.png"
+          src="https://fantasynails.es/fn_content/assets/footer/fantasy-grey.png"
           alt="logo-fantasy"
           align="center"
           border="none"

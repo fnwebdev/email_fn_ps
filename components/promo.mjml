@@ -4,7 +4,7 @@
           <mj-image
             padding="0px 0px 0px 0px"
             href="https://fantasynails.es/es/69-esmaltes-permanentes"
-            src="https://fantasynails.es/imagenes/email/promo/esmalte.jpg"
+            src="https://fantasynails.es/fn_content/assets/promo/esmalte.jpg"
             alt="Esmaltes"
           ></mj-image>
         </mj-column>
@@ -12,7 +12,7 @@
           <mj-image
             padding="0px 0px 0px 0px"
             href="https://fantasynails.es/es/3-acrilicos"
-            src="https://fantasynails.es/imagenes/email/promo/acrilico.jpg"
+            src="https://fantasynails.es/fn_content/assets/promo/acrilico.jpg"
             alt="Acrílico"
           ></mj-image>
         </mj-column>
@@ -25,7 +25,7 @@
           <mj-image
             padding="0px 0px 0px 0px"
             href="https://fantasynails.es/es/47-acrigel"
-            src="https://fantasynails.es/imagenes/email/promo/acrigel.jpg"
+            src="https://fantasynails.es/fn_content/assets/promo/acrigel.jpg"
             alt="Acrigel"
           ></mj-image>
         </mj-column>
@@ -33,7 +33,7 @@
           <mj-image
             padding="0px 0px 0px 0px"
             href="https://fantasynails.es/es/51-gel"
-            src="https://fantasynails.es/imagenes/email/promo/gel.jpg"
+            src="https://fantasynails.es/fn_content/assets/promo/gel.jpg"
             alt="Gel"
           ></mj-image>
         </mj-column>

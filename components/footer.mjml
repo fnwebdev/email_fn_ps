@@ -5,7 +5,7 @@
         <mj-image
           padding="0px 0px 0px 0px"
           href="https://fantasynails.es/"
-          src="https://fantasynails.es/imagenes/email/footer/footer-cta-tienda.jpg"
+          src="https://fantasynails.es/fn_content/assets/footer/footer-cta-tienda.jpg"
           alt="Visita nuestra tienda"
         ></mj-image>
       </mj-column>
@@ -13,7 +13,7 @@
         <mj-image
           padding="0px 0px 0px 0px"
           href="https://fantasynails.es/blog/looks"
-          src="https://fantasynails.es/imagenes/email/footer/footer-cta-looks.jpg"
+          src="https://fantasynails.es/fn_content/assets/footer/footer-cta-looks.jpg"
           alt="Descubre nuevas tendencias"
         ></mj-image>
       </mj-column>
@@ -26,7 +26,7 @@
         <mj-social font-size="15px" icon-size="40px" mode="horizontal">
           <mj-social-element
             href="https://fantasynails.es/"
-            src="https://fantasynails.es/imagenes/email/footer/fantasy.png"
+            src="https://fantasynails.es/fn_content/assets/footer/fantasy.png"
             alt="web"
             background-color="#000"
             href="https://mjml.io/"

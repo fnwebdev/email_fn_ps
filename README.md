@@ -27,6 +27,9 @@ V:\WEB\EMAIL\Prestashop\DESARROLLO\email_fn_ps\core\core.mjml
 Design folder is on a folder one level up: V:\WEB\EMAIL\Prestashop\DISEÑO\imagenes\export
 This folder is not in this project as only `email_fn_ps` has .git folder.
 
+Path for images is yet to be defined: once the repo is sync with the Server  it will be defined: 
+It should be something like this: https://fantasynails.es/fn_content/email_fn_ps/assets/hero/hero-fantasy-1.jpg
+
 
 # GUIA MJML
 https://github.com/mjmlio/mjml
