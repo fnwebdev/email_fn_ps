@@ -1,0 +1,29 @@
+https://eguiadaniel.github.io/prestashop_email/
+
+account
+backoffice_order
+bankwire
+contact_form
+download_product ??? Con este tengo dudas porque a día de hoy no tenemos productos descargables pero los tendremos quizás con la formación en el futuro?
+guest_to_customer
+in_transit
+new_comment
+newsletter
+order_canceled
+order_changed
+order_conf
+order_merchant_comment
+order_return_state
+outofstock
+password
+password_query
+payment
+payment_error
+preparation
+productoutofstock
+refund
+reply_msg
+shipped
+test Yo lo quitaría pero creo que tú querías cambiarlo
+voucher
+voucher_new 

@@ -1,0 +1,275 @@
+<mjml>
+  <mj-head>
+  <mj-style>
+  
+    .box {
+      background-color: pink;
+      border: solid 1px black;
+      padding: 10px 10px 0px;
+    }
+
+    .table-title {
+      font-family: Arial, sans-serif; 
+      margin: 3px 0 7px; 
+      text-transform: uppercase; 
+      font-weight: 700; 
+      font-size: 18px; 
+      padding-bottom: 10px;
+    }
+    
+    .table-text {
+      color: black; 
+      font-family: Arial, sans-serif; 
+      font-size: small;"
+    }
+
+
+  </mj-style>  
+  <mj-style>
+    @media only screen and (max-width: 300px) {
+      body {
+        width: 218px !important;
+        margin: auto !important;
+      }
+
+      thead,
+      tbody {
+        width: 100%
+      }
+
+      .table {
+        width: 195px !important;
+        margin: auto !important;
+      }
+
+      .logo,
+      .titleblock,
+      .linkbelow,
+      .box,
+      .footer,
+      .space_footer {
+        width: auto !important;
+        display: block !important;
+      }
+
+      span.title {
+        font-size: 20px !important;
+        line-height: 23px !important
+      }
+
+      span.subtitle {
+        font-size: 14px !important;
+        line-height: 18px !important;
+        padding-top: 10px !important;
+        display: block !important;
+      }
+
+      td.box p {
+        font-size: 12px !important;
+        font-weight: bold !important;
+      }
+
+      .table-recap table,
+      .table-recap thead,
+      .table-recap tbody,
+      .table-recap th,
+      .table-recap td,
+      .table-recap tr {
+        display: block !important;
+      }
+
+      .table-recap {
+        width: 200px !important;
+      }
+
+      .table-recap tr td,
+      .conf_body td {
+        text-align: center !important;
+      }
+
+      .address {
+        display: block !important;
+        margin-bottom: 10px !important;
+      }
+
+      .space_address {
+        display: none !important;
+      }
+    }
+
+    @media only screen and (min-width: 301px) and (max-width: 500px) {
+      body {
+        width: 425px !important;
+        margin: auto !important;
+      }
+
+      thead,
+      tbody {
+        width: 100%
+      }
+
+      .table {
+        margin: auto !important;
+      }
+
+      .logo,
+      .titleblock,
+      .linkbelow,
+      .box,
+      .footer,
+      .space_footer {
+        width: auto !important;
+        display: block !important;
+      }
+
+      .table-recap {
+        width: 295px !important;
+      }
+
+      .table-recap tr td,
+      .conf_body td {
+        text-align: center !important;
+      }
+
+      .table-recap tr th {
+        font-size: 10px !important
+      }
+
+    }
+
+    @media only screen and (min-width: 501px) and (max-width: 768px) {
+      body {
+        width: 478px !important;
+        margin: auto !important;
+      }
+
+      thead,
+      tbody {
+        width: 100%
+      }
+
+      .table {
+        margin: auto !important;
+      }
+
+      .logo,
+      .titleblock,
+      .linkbelow,
+      .box,
+      .footer,
+      .space_footer {
+        width: auto !important;
+        display: block !important;
+      }
+    }
+
+    @media only screen and (max-device-width: 480px) {
+      body {
+        width: 340px !important;
+        margin: auto !important;
+      }
+
+      thead,
+      tbody {
+        width: 100%
+      }
+
+      .table {
+        margin: auto !important;
+      }
+
+      .logo,
+      .titleblock,
+      .linkbelow,
+      .box,
+      .footer,
+      .space_footer {
+        width: auto !important;
+        display: block !important;
+      }
+
+      .table-recap {
+        width: 295px !important;
+      }
+
+      .table-recap tr td,
+      .conf_body td {
+        text-align: center !important;
+      }
+
+      .address {
+        display: block !important;
+        margin-bottom: 10px !important;
+      }
+
+      .space_address {
+        display: none !important;
+      }
+    }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+  
+    <mj-section padding="50px 20px 20px 20px" background-color="#fff">
+      <mj-column>
+      <mj-table>
+       <tr>
+                <td class="box">
+                  <table class="table" style="width: 100%;">
+                    <tbody>
+                      <tr>
+                         <td style="padding: 10px 10PX;">
+                          <p data-html-only="1"
+                            class="table-title">
+                            Detalles del pedido</p>
+                          <p class="table-text" size="2"
+                          ><strong>Pedido:</strong> {order_name} realizado el {date}<br /> <span style=""><strong>Pago:</strong></span> {payment}
+                            </span> </span>
+                        </td>
+                        <td style="padding: 17px 0;" width="10"> </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr> 
+       </mj-table>
+      
+      </mj-column>
+    </mj-section>
+      <mj-section padding="50px 20px 20px 20px" background-color="#fff">
+      <mj-column>
+        <mj-text mj-class="" css-class="" padding=""
+          >¡Título main y la {variable aquí}!</mj-text
+        >
+        <mj-text mj-class="" css-class=""
+          >    Detalles del pedido
+Pedido: {order_name} Realizado el {date}
+
+Pago: {payment} 
+
+Referencia	Producto	Precio unitario	Cantidad	Precio total
+  {products}
+  {discounts}
+
+ Productos  {total_products} 
+ Descuentos  {total_discounts} 
+ Embalaje de regalo  {total_wrapping} 
+ Transporte {total_shipping} 
+ Impuestos totales pagados  {total_tax_paid} 
+ Total pagado  {total_paid} 
+
+Transporte
+Transportista: {carrier}
+Pago: {payment}
+
+Dirección de entrega
+{delivery_block_html} 
+
+Dirección de facturación
+{invoice_block_html} </mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

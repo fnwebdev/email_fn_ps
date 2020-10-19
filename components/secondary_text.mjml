@@ -1,0 +1,57 @@
+<!-- SECONDARY -->
+<mj-section name="secondary" padding="0px 0px 20px 0px" background-color="#fff">
+  <mj-column>
+    <mj-text mj-class="secondary-text" css-class="content-padding">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        interdum elementum ullamcorper. Duis et vehicula tellus. Vivamus arcu
+        velit, posuere sed convallis eu, correo electrónico:
+        <strong>{email}</strong>.
+      </p>
+      <p>
+        Curabitur ornare vulputate enim. Phasellus accumsan turpis sit amet
+        venenatis bibendum 😉. Nulla ornare metus eu ultricies semper.
+      </p>
+    </mj-text>
+    <mj-text mj-class="secondary-text" css-class="content-padding">
+      <p style="font-weight: bold">
+        ✌ Algunos consejos para proteger tu cuenta
+      </p>
+      <p>
+        • No compartas tus datos de acceso con otras personas.<br />
+        • Cambia la contraseña con regularidad.<br />
+        • Si tienes sospechas de un uso ilegal de tu cuenta, ponte en contacto
+        con nosotros <a href="fantasynails.es/contacto"> aquí</a> lo antes
+        posible.
+      </p>
+      <p>¡Nos vemos pronto!</p>
+    </mj-text>
+    <mj-text mj-class="secondary-text" css-class="content-padding">
+      <p style="font-weight: bold">✒ Datos para la transferencia</p>
+      <p>
+        • ID Pedido: <strong>{order_name}</strong><br />
+        • Importe: <strong>{total_paid}</strong><br />
+        • Titular de la cuenta: <strong>{bankwire_owner}</strong><br />
+        • Datos de la cuenta: <strong>{bankwire_details}</strong><br />
+        • Dirección bancaria: <strong>{bankwire_address}</strong><br />
+      </p>
+    </mj-text>
+    <mj-text mj-class="secondary-text" css-class="content-padding">
+      <p style="font-weight: bold">⚠ ¡Muy importante!</p>
+      <p>
+        Añade el número de referencia de tu pedido
+        <strong>{order_name}</strong> en los detalles de la transferencia ;)
+      </p>
+    </mj-text>
+    <mj-text mj-class="secondary-text" css-class="content-padding">
+      <p style="font-weight: bold">ℹ Más info</p>
+      <p>
+        • Localiza el envío desde aquí <a href="#">{followup}</a><br />
+        • Revisa tu pedido desde aquí <a href="#">{order_history}</a>.<br />
+        • ¿Has comprado como invitado? sigue tu pedido desde nuestra sección
+        <a href="#">{seguimiento de invitado}</a>.
+      </p>
+      <p>¡Nos vemos pronto!</p>
+    </mj-text>
+  </mj-column>
+</mj-section>

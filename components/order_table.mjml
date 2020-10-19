@@ -1,0 +1,239 @@
+    <mj-section
+      background-color="#ffffff"
+      padding="0px 20px"
+      border="1px solid red"
+    >
+      <mj-column width="" border="1px solid blue" padding="0px">
+      
+        <mj-text
+          align="left"
+          color="#000000"
+          font-size="13px"
+          padding-left="0px"
+          padding-right="0px"
+          padding-bottom="0px"
+          padding-top="0px"
+        >
+          <p style="font-size: 19px">Detalles del pedido</p>
+          </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="0px 20px 20px"
+      border="1px solid red"
+    >
+      <mj-column width="" border="1px solid blue" padding="0px">
+
+        <mj-text
+          align="left"
+          color="#000000"
+          font-size="13px"
+          padding-left="0px"
+          padding-right="0px"
+          padding-bottom="0px"
+          padding-top="0"
+        >
+         
+          <p style="font-size: 14px">
+           Pedido: {order_name} Realizado el {date} <br>
+Pago: {payment}
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+   
+
+    <mj-section
+      background-color="#ffffff"
+      padding="0px 20px 20px"
+      border="1px solid red"
+    >
+      <mj-column border="1px solid blue" padding="0px">
+        <mj-text padding="0px">
+          <p style="font-size: 19px">
+             ORDER TABLE:
+          </p>
+        </mj-text>
+        <mj-table padding="0px">
+          <tr style="border-collapse: collapse; border: 1px solid black">
+            <th style="border: 1px solid black" colspan="1">Referencia</th>
+            <th style="border: 1px solid black" colspan="2">Producto</th>
+            <th style="border: 1px solid black" colspan="1">Precio unitario</th>
+            <th style="border: 1px solid black" colspan="1">Cantidad</th>
+            <th style="border: 1px solid black" colspan="1">Precio total</th>
+          </tr>
+          <tr style="border-collapse: collapse; border: 1px solid black">
+            <th style="border: 1px solid black" colspan="4">Productos</th>
+            <th style="border: 1px solid black" colspan="2">
+              {total_products}
+            </th>
+          </tr>
+          <tr style="border-collapse: collapse; border: 1px solid black">
+            <th style="border: 1px solid black" colspan="4">Descuentos</th>
+            <th style="border: 1px solid black" colspan="2">
+              {total_discounts}
+            </th>
+          </tr>
+          <tr style="border-collapse: collapse; border: 1px solid black">
+            <th style="border: 1px solid black" colspan="4">
+              Embalaje de regalo
+            </th>
+            <th style="border: 1px solid black" colspan="2">
+              {total_wrapping}
+            </th>
+          </tr>
+          <tr style="border-collapse: collapse; border: 1px solid black">
+            <th style="border: 1px solid black" colspan="4">Transporte</th>
+            <th style="border: 1px solid black" colspan="2">
+              {total_shipping}
+            </th>
+          </tr>
+          <tr style="border-collapse: collapse; border: 1px solid black">
+            <th style="border: 1px solid black" colspan="4">
+              Incluyendo impuestos totales
+            </th>
+            <th style="border: 1px solid black" colspan="2">
+              {total_tax_paid}
+            </th>
+          </tr>
+          <tr style="border-collapse: collapse; border: 1px solid black">
+            <th style="border: 1px solid black" colspan="4">Total pagado</th>
+            <th style="border: 1px solid black" colspan="2">{total_paid}</th>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section
+      background-color="#ffffff"
+      padding="0px 20px"
+      border="1px solid red"
+    >
+      <mj-column width="" border="1px solid blue" padding="0px">
+      
+        <mj-text
+          align="left"
+          color="#000000"
+          font-size="13px"
+          padding-left="0px"
+          padding-right="0px"
+          padding-bottom="0px"
+          padding-top="0px"
+        >
+          <p style="font-size: 19px">Transporte</p>
+          </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="0px 20px 20px"
+      border="1px solid red"
+    >
+      <mj-column width="" border="1px solid blue" padding="0px">
+
+        <mj-text
+          align="left"
+          color="#000000"
+          font-size="13px"
+          padding-left="0px"
+          padding-right="0px"
+          padding-bottom="0px"
+          padding-top="0"
+        >
+         
+          <p style="font-size: 14px">
+           Transportista: {carrier}<br>
+Pago: {payment}
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+<mj-section
+      background-color="#ffffff"
+      padding="0px 20px"
+      border="1px solid red"
+    >
+      <mj-column width="" border="1px solid blue" padding="0px">
+      
+        <mj-text
+          align="left"
+          color="#000000"
+          font-size="13px"
+          padding-left="0px"
+          padding-right="0px"
+          padding-bottom="0px"
+          padding-top="0px"
+        >
+          <p style="font-size: 19px">Dirección de entrega</p>
+          </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="0px 20px 20px"
+      border="1px solid red"
+    >
+      <mj-column width="" border="1px solid blue" padding="0px">
+
+        <mj-text
+          align="left"
+          color="#000000"
+          font-size="13px"
+          padding-left="0px"
+          padding-right="0px"
+          padding-bottom="0px"
+          padding-top="0"
+        >
+         
+          <p style="font-size: 14px">
+           {delivery_block_html}
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section
+      background-color="#ffffff"
+      padding="0px 20px"
+      border="1px solid red"
+    >
+      <mj-column width="" border="1px solid blue" padding="0px">
+      
+        <mj-text
+          align="left"
+          color="#000000"
+          font-size="13px"
+          padding-left="0px"
+          padding-right="0px"
+          padding-bottom="0px"
+          padding-top="0px"
+        >
+          <p style="font-size: 19px">Dirección de facturación</p>
+          </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding="0px 20px 20px"
+      border="1px solid red"
+    >
+      <mj-column width="" border="1px solid blue" padding="0px">
+
+        <mj-text
+          align="left"
+          color="#000000"
+          font-size="13px"
+          padding-left="0px"
+          padding-right="0px"
+          padding-bottom="0px"
+          padding-top="0"
+        >
+         
+          <p style="font-size: 14px">
+           {invoice_block_html}
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>

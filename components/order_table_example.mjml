@@ -1,0 +1,138 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container>
+      <mj-section>
+        <mj-column>
+        <mj-text>
+            <h3>
+              <strong>
+                <u>
+                  Bus Booking Request
+                </u>
+              </strong>
+            </h3>
+          </mj-text>
+          <mj-table>
+            <tr style="border-collapse:collapse;border: 1px solid black;">
+              <td style="border: 1px solid black;" align="center">Hotel Name</td>
+              <td style="border: 1px solid black;" align="center">Hotel Demo</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black;" align="center">Booked By</td>
+              <td style="border: 1px solid black;" align="center">sjhdj@gmail.com</td>
+            </tr>
+          </mj-table>
+          </mj-column>
+      </mj-section>
+      <mj-section>
+         <mj-column>
+        <mj-text>
+            <p>
+              <strong>
+                  Passenger Contact:
+              </strong>
+            </p>
+          </mj-text>
+          <mj-table>
+            <tr style="border-collapse:collapse;border: 1px solid black;">
+              <td style="border: 1px solid black;" align="center">Phone</td>
+              <td style="border: 1px solid black;" align="center">+60321312323</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black;" align="center">Email</td>
+              <td style="border: 1px solid black;" align="center">customer@yahoo.com</td>
+            </tr>
+          </mj-table>
+            </mj-column>
+      </mj-section>
+      <mj-section>
+         <mj-column>
+        <mj-text>
+            <p>
+              <strong>
+                  Trip Details:
+              </strong>
+            </p>
+          </mj-text>
+          <mj-table>
+            <tr style="border-collapse:collapse;border: 1px solid black;">
+              <th style="border: 1px solid black;">COACH</th>
+              <th style="border: 1px solid black;" colspan="2">SRI MAJU KANGAR</th>
+            </tr>
+            <tr style="border-collapse:collapse;border: 1px solid black;">
+              <th style="border: 1px solid black;">TRIP</th>
+              <th style="border: 1px solid black;" colspan="2">Alor Setar => Ayer Hitam</th>
+            </tr>
+            <tr style="border-collapse:collapse;border: 1px solid black;">
+              <th style="border: 1px solid black;">DATE</th>
+              <th style="border: 1px solid black;" colspan="2">03 April 2017</th>
+            </tr>
+            <tr style="border-collapse:collapse;border: 1px solid black;">
+              <th style="border: 1px solid black;">Departure Time</th>
+              <th style="border: 1px solid black;" colspan="2">1300 - 1500</th>
+            </tr>
+            <tr style="border-collapse:collapse;border: 1px solid black;">
+              <th style="border: 1px solid black;">Pickup & Drop off</th>
+              <th style="border: 1px solid black;" colspan="2">Tbs (terminal bersepadu selatan) => Ayer Hitam</th>
+            </tr>
+            <tr style="border-collapse:collapse;border: 1px solid black;">
+              <th style="border: 1px solid black;" rowspan="3">Ticket Price</th>
+              <td style="border: 1px solid black;" align="center">Ticket</td>
+              <td style="border: 1px solid black;" align="center">MYR 77</td>
+            </tr>
+            <tr style="border-collapse:collapse;border: 1px solid black;">
+              <td style="border: 1px solid black;" align="center">Amount</td>
+              <td style="border: 1px solid black;" align="center">2</td>
+            </tr>
+            <tr style="border-collapse:collapse;border: 1px solid black;">
+              <th style="border: 1px solid black;">Total</th>
+              <th style="border: 1px solid black;">MYR 154</th>
+            </tr>
+          </mj-table>
+           </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+        <mj-text>
+            <p>
+              <strong>
+                  Passenger 1
+              </strong>
+            </p>
+          </mj-text>
+          <mj-table>
+            <tr style="border-collapse:collapse;border: 1px solid black;">
+              <td style="border: 1px solid black;" align="center">Name</td>
+              <td style="border: 1px solid black;" align="center">Lee Jason</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black;" align="center">Country</td>
+              <td style="border: 1px solid black;" align="center">Malaysia</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black;" align="center">Gender</td>
+              <td style="border: 1px solid black;" align="center">Male</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black;" align="center">Age</td>
+              <td style="border: 1px solid black;" align="center">23</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black;" align="center">Date of Birth</td>
+              <td style="border: 1px solid black;" align="center">19 June 1984</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black;" align="center">IC/Passport</td>
+              <td style="border: 1px solid black;" align="center">23123212</td>
+            </tr>
+          </mj-table>
+          </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
+

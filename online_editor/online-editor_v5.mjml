@@ -1,0 +1,314 @@
+<mjml>
+  <mj-head>
+    <mj-title>Core</mj-title>
+    <mj-preview>Core Preview</mj-preview>
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-text padding="0" />
+      <mj-class
+        name="main-text"
+        color="#000"
+        font-size="35px"
+        font-family="arial"
+        font-weight="bold"
+        margin="0px"
+        padding="0px"
+        text-align="center"
+        line-height="120%"
+      />
+      <mj-class
+        name="footer-icon-text"
+        color="#fff"
+        font-size="15px"
+        letter-spacing="2"
+        font-family="arial"
+        font-weight="bold"
+        text-align="center"
+        line-height="150%"
+      />
+      <mj-class
+        name="footer-text"
+        color="#848484"
+        font-size="10px"
+        letter-spacing=""
+        font-family="arial"
+        font-weight=""
+        line-height=""
+      />
+      <mj-class
+        name="primary-text"
+        color="#000"
+        font-size="18px"
+        letter-spacing=""
+        font-family="arial"
+        font-weight=""
+        line-height="150%"
+      />
+      <mj-class
+        name="secondary-text"
+        color="#000"
+        font-size="14px"
+        letter-spacing=""
+        font-family="arial"
+        font-weight=""
+        line-height="150%"
+      />
+    </mj-attributes>
+    <mj-style inline="inline">
+      a { text-decoration: none; } .footer-text a{ color: #848484; }
+      .center-text div { text-align: center !important; } .primary-text p{
+      margin: 10px 10px; padding: 0px; } .secondary-text p{ margin: 10px 10px;
+      padding: 0px; } .footer-icon-text p{ margin: 10px 0px; padding: 0px; }
+      .footer-text p{ margin: 5px 0px; padding: 0px; } .contrast { filter:
+      contrast(60%); }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#fff">
+    <!-- Start of core content-->
+
+    <!-- This is Header Section-->
+    <mj-section padding="20px 0px 20px 0px">
+      <mj-column>
+        <mj-image
+          width="232px"
+          src="https://fantasynails.es/imagenes/email/header/logo-header.png"
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- This is Main Section-->
+    <mj-wrapper border="1px solid #000000" padding="0px 0px">
+      <mj-section padding="0px 0px 20px 0px">
+        <mj-column>
+          <mj-divider
+            border-color="#000"
+            border-width="1px"
+            padding="0px"
+          ></mj-divider>
+
+          <mj-text mj-class="main-text" css-class="center-text"
+            >¡Bienvenida {firstname}!</mj-text
+          >
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- This is Body Section-->
+    <mj-wrapper border="1px solid #000000" padding="0px 0px">
+      <mj-section name="primary" padding="0px 0px 20px 0px">
+        <mj-column>
+          <mj-text mj-class="primary-text" css-class="primary-text"
+            ><p style="font-weight: bold">Nos encanta tenerte por aquí 😊</p>
+            <p>
+              Ya formas parte de esta gran comunidad de profesionales que
+              encuentran en nuestro sitio web los productos más novedosos y la
+              inspiración para crear looks impresionantes. ¡Espero que disfrutes
+              de la experiencia Fantasy Nails!
+            </p></mj-text
+          >
+        </mj-column>
+      </mj-section>
+      <mj-section name="secondary" padding="0px 0px 20px 0px">
+        <mj-column>
+          <mj-text mj-class="secondary-text" css-class="secondary-text"
+            ><p>
+              Recuerda que para iniciar sesión en fantasynails.es debes usar tu
+              dirección de correo electrónico: {email}
+            </p>
+            <p>
+              No enviamos tu contraseña por motivos de seguridad, pero seguro
+              que la recuerdas bien 😉 Si la pierdes no te preocupes, podrás
+              reestablecerla en cualquier momento.
+            </p>
+            <p style="font-weight: bold">
+              ✌ Algunos consejos para proteger tu cuenta
+            </p>
+            <p>
+              • No compartas tus datos de acceso con otras personas.<br />
+              • Cambia la contraseña con regularidad.<br />
+              • Si tienes sospechas de un uso ilegal de tu cuenta, ponte en
+              contacto con nosotros aquí lo antes posible.
+            </p>
+            <p>¡Nos vemos pronto!</p></mj-text
+          >
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- This is Promo Section-->
+    <mj-wrapper border="0px solid #000000" padding="0px 0px">
+      <mj-section padding="0px 0px 0px 0px">
+        <mj-column padding="0px 0px 0px 0px">
+          <mj-image
+            padding="0px 0px 0px 0px"
+            width=""
+            src="https://fantasynails.es/imagenes/email/promo/esmalte.jpg"
+          ></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-image
+            padding="0px 0px 0px 0px"
+            width=""
+            src="https://fantasynails.es/imagenes/email/promo/acrilico.jpg"
+          ></mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- This is Promo Section 2-->
+    <mj-wrapper border="0px solid #000000" padding="0px 0px">
+      <mj-section padding="0px 0px 0px 0px">
+        <mj-column padding="0px 0px 0px 0px">
+          <mj-image
+            padding="0px 0px 0px 0px"
+            width=""
+            src="https://fantasynails.es/imagenes/email/promo/acrigel.jpg"
+          ></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-image
+            padding="0px 0px 0px 0px"
+            width=""
+            src="https://fantasynails.es/imagenes/email/promo/gel.jpg"
+          ></mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- This is Footer Section-->
+    <mj-wrapper
+      border="0px solid #000000"
+      padding="0px 0px 0px 0px"
+      background-color="#000"
+    >
+      <mj-section padding="20px 0px" margin="0px">
+        <mj-column width="80px">
+          <mj-image
+            src="https://fantasynails.es/imagenes/email/footer/footer-icon-bag.png"
+            alt=""
+            align="right"
+            border="none"
+            width="72px"
+            padding-left="0px"
+            padding-right="10px"
+            padding-bottom="10px"
+            padding-top="10px"
+          ></mj-image>
+        </mj-column>
+        <mj-column width="200px">
+          <mj-text mj-class="footer-icon-text" css-class="footer-icon-text">
+            <p>
+              Visita nuestra tienda <br />
+              <span style="font-weight: lighter">Compra online</span>
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0px 0px" margin="0px">
+        <mj-column width="80px">
+          <mj-image
+            src="https://fantasynails.es/imagenes/email/footer/footer-icon-nail.png"
+            alt=""
+            align="right"
+            border="none"
+            width="72px"
+            padding-left="0px"
+            padding-right="10px"
+            padding-bottom="10px"
+            padding-top="10px"
+          ></mj-image>
+        </mj-column>
+        <mj-column width="200px">
+          <mj-text mj-class="footer-icon-text" css-class="footer-icon-text">
+            <p>
+              Descubre tendencias <br />
+              <span style="font-weight: lighter">Visita nuestros looks</span>
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-social font-size="15px" icon-size="40px" mode="horizontal">
+            <mj-social-element
+              href="url"
+              src="https://fantasynails.es/imagenes/email/footer/fantasy.png"
+              background-color="#000"
+              href="https://mjml.io/"
+              icon-padding="7px"
+            ></mj-social-element>
+            <mj-social-element
+              name="facebook-noshare"
+              background-color="#000"
+              href="https://mjml.io/"
+              icon-padding="7px"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="instagram-noshare"
+              background-color="#000"
+              href="https://mjml.io/"
+              icon-padding="7px"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="youtube-noshare"
+              background-color="#000"
+              href="https://mjml.io/"
+              icon-padding="7px"
+            >
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper
+      border="1px solid #000000"
+      padding="10px 0px"
+      background-color="#E5E5E5"
+    >
+      <mj-section padding="0px 0px 20px 0px">
+        <mj-column>
+          <mj-text mj-class="footer-text" css-class="footer-text center-text"
+            ><p>
+              ¿Tienes cualquier duda?
+              <a href="https://mjml.io/" style="font-weight: bold"
+                >Contacta con nosotros</a
+              >
+            </p></mj-text
+          >
+          <mj-text mj-class="footer-text" css-class="footer-text center-text"
+            ><p>
+              Si quieres dejar de recibir estos emails,
+              <a href="https://mjml.io/" style="font-weight: bold"
+                >date de baja aquí</a
+              >
+            </p></mj-text
+          >
+          <mj-text mj-class="footer-text" css-class="footer-text center-text"
+            ><p>
+              <a href="https://mjml.io/" style="font-weight: bold"
+                >www.fantasynails.es</a
+              >
+              //
+              <a href="https://mjml.io/">info@fantasynails.es</a>
+            </p></mj-text
+          >
+          <mj-image
+            css-class="contrast"
+            src="https://fantasynails.es/imagenes/email/footer/fantasy.png"
+            alt=""
+            align="center"
+            border="none"
+            width="72px"
+            padding-left="0px"
+            padding-right="10px"
+            padding-bottom="10px"
+            padding-top="10px"
+          ></mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- End of core content-->
+  </mj-body>
+</mjml>

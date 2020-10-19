@@ -1,0 +1,9 @@
+[{shop_url}] 
+ 
+Hi!,
+ 
+You have received a new comment for the product "{product_name}"
+ 
+{comment_content}
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 

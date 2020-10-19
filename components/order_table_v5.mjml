@@ -1,0 +1,398 @@
+<mjml>  
+  <mj-body>
+    
+     <mj-section background-color="#ffffff" padding="20px" border="1px solid red">
+      <mj-column width="" border="1px solid blue" padding="10px">
+        <mj-text align="left" color="#000000" font-size="13px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p style="font-size: 19px;">TÍTULO</p>
+          <p style="font-size: 14px;">The Anderson Sweater features a floral all-over print with contrast colour.</p>
+        </mj-text>        
+      </mj-column>
+    </mj-section>
+    
+     <mj-section background-color="#ffffff" padding="20px" border="1px solid red">
+      <mj-column width="48%" border="1px solid blue" padding="">
+        <mj-text align="left" color="#000000" font-size="13px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p style="font-size: 19px;">TÍTULO</p>
+          <p style="font-size: 14px;">The Anderson Sweater features a floral all-over print with contrast colour.</p>
+        </mj-text>        
+      </mj-column>
+      <mj-column width="4%" border="1px solid blue" padding=""></mj-column>
+      <mj-column width="48%" border="1px solid blue" padding="">
+        <mj-text align="left" color="#000000" font-size="13px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p style="font-size: 19px;">TÍTULO</p>
+          <p style="font-size: 14px;">The Anderson Sweater features a floral all-over print with contrast colour.</p>
+        </mj-text>        
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#ffffff" padding="20px" border="1px solid red">
+      <mj-group>
+      <mj-column width="70%" border="1px solid blue" padding="">
+        <mj-text align="left" color="#000000" font-size="13px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p style="font-size: 19px;">TÍTULO</p>
+        </mj-text>        
+      </mj-column>     
+      <mj-column width="30%" border="1px solid blue" padding="">
+        <mj-text align="left" color="#000000" font-size="13px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p style="font-size: 19px;">TÍTULO</p>
+        </mj-text>        
+      </mj-column>
+      </mj-group>
+      
+    </mj-section>
+    
+    <mj-wrapper border="1px solid red" padding="20px">
+       <mj-section border="1px solid blue" padding="20px">
+        <mj-column border="1px solid black" padding="20px" width="50%">
+          <mj-text padding=""> First line of text </mj-text>          
+        </mj-column>         
+      </mj-section>
+       <mj-section border="1px solid blue" padding="20px">
+        <mj-column border="1px solid black" padding="20px" width="50%">
+          <mj-text padding=""> First line of text </mj-text>          
+        </mj-column>         
+      </mj-section>
+    </mj-wrapper>
+    
+        <mj-wrapper border="1px solid red" padding="20px">
+       <mj-section border="1px solid blue" padding="20px">
+        <mj-column border="1px solid black" padding="20px" width="50%">
+          <mj-raw padding="">  
+          <table style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; cellspacing: 0; color: #000000; font-family: Open sans, arial, sans-serif; font-size: 14px; line-height: 22px; table-layout: auto; width: 100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                  <colgroup>
+                                    <col style="width: 15%;" width="15%" span="1">
+                                    <col style="width: 40%;" width="40%" span="1">
+                                    <col style="width: 15%;" width="15%" span="1">
+                                    <col style="width: 15%;" width="15%" span="1">
+                                    <col style="width: 15%;" width="15%" span="1">
+                                  </colgroup>
+                                  <tbody><tr>
+                                    <th style="font-family: Open sans, Arial, sans-serif; font-size: 12px; background-color: #FDFDFD; color: #353943; font-weight: 600; padding: 10px 5px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD">Referencia</th>
+                                    <th style="font-family: Open sans, Arial, sans-serif; font-size: 12px; background-color: #FDFDFD; color: #353943; font-weight: 600; padding: 10px 5px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD">Producto</th>
+                                    <th style="font-family: Open sans, Arial, sans-serif; font-size: 12px; background-color: #FDFDFD; color: #353943; font-weight: 600; padding: 10px 5px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD">Precio unitario</th>
+                                    <th style="font-family: Open sans, Arial, sans-serif; font-size: 12px; background-color: #FDFDFD; color: #353943; font-weight: 600; padding: 10px 5px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD">Cantidad</th>
+                                    <th style="font-family: Open sans, Arial, sans-serif; font-size: 12px; background-color: #FDFDFD; color: #353943; font-weight: 600; padding: 10px 5px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD">Precio total</th>
+                                  </tr><tr class="order_summary">
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD" align="right">
+                                      Productos
+                                    </td>
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD"> {total_products} </td>
+                                  </tr>
+                                  <tr class="order_summary">
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD" align="right">
+                                      Descuentos
+                                    </td>
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD"> {total_discounts} </td>
+                                  </tr>
+                                  <tr class="order_summary">
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD" align="right">
+                                      Embalaje de regalo
+                                    </td>
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD"> {total_wrapping} </td>
+                                  </tr>
+                                  <tr class="order_summary">
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD" align="right">
+                                      Transporte
+                                    </td>
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD"> {total_shipping} </td>
+                                  </tr>
+                                  <tr class="order_summary">
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD" align="right">
+                                      Incluyendo impuestos totales
+                                    </td>
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD"> {total_tax_paid} </td>
+                                  </tr>
+                                  <tr class="order_summary">
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD" align="right">
+                                      Total pagado
+                                    </td>
+                                    <td colspan="3" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Open sans, Arial, sans-serif; background-color: #FDFDFD; color: #353943; font-weight: 600; font-size: 14px; padding: 10px; border: 1px solid #DFDFDF;" bgcolor="#FDFDFD"> {total_paid} </td>
+                                  </tr>
+                                </tbody></table>
+          
+          </mj-raw>          
+        </mj-column>         
+      </mj-section>
+    </mj-wrapper>
+    
+    
+    
+    <mj-section>
+    	<mj-column border="solid 1px black" >
+        <mj-text >
+           <p class="">Detalles del pedido</p>
+           <p class=""><strong>Pedido:</strong> {order_name} realizado el {date}<br /> 
+             <span style=""><strong>Pago:</strong></span> {payment}</p>
+        </mj-text>
+        
+     	</mj-column>
+      <mj-column border="solid 1px black">
+        <mj-text >
+           <p class="">Detalles del pedido</p>
+           <p class=""><strong>Pedido:</strong> {order_name} realizado el {date}<br /> 
+             <span style=""><strong>Pago:</strong></span> {payment}</p>
+        </mj-text>
+        
+     	</mj-column>
+    </mj-section>
+
+    <mj-section padding="50px 20px 20px 20px" background-color="#fff">
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td class="box table-fn">
+              <table class="table" style="width: 100%;">
+                <tbody>
+                  <tr>
+                    <td style="padding: 10px 10PX;">
+                      <p data-html-only="1" class="table-title">
+                        Detalles del pedido</p>
+                      <p class="table-text" size="2"><strong>Pedido:</strong> {order_name} realizado el {date}<br /> <span style=""><strong>Pago:</strong></span> {payment}
+                        </span> </span>
+                    </td>
+                    <td style="padding: 17px 0;" width="10"> </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-table>
+          <tr>
+            <td style="">
+              <table class="table table-recap" style="width: 100%; border-collapse: collapse;" bgcolor="#ffffff">
+                <!-- Title -->
+                <tbody>
+                  <tr>
+                    <th class="table-fn" style=" font-size: 10px; padding: 10px; text-transform: uppercase" bgcolor="#ffffff">Referencia</th>
+                    <th class="table-fn" style=" font-size: 10px; padding: 10px; text-transform: uppercase" bgcolor="#ffffff">Producto</th>
+                    <th class="table-fn" style=" font-size: 10px; padding: 10px; text-transform: uppercase" bgcolor="#ffffff">Precio unitario</th>
+                    <th class="table-fn" style=" font-size: 10px; padding: 10px; text-transform: uppercase" bgcolor="#ffffff">Cantidad</th>
+                    <th class="table-fn" style=" font-size: 10px; padding: 10px; text-transform: uppercase" bgcolor="#ffffff">Precio total</th>
+                  </tr>
+                  <tr>
+                    <td colspan="5" style="border: 0px solid #D6D4D4; text-align: center; color: #000000; padding: 17px 0;">
+                      {products}</td>
+                  </tr>
+                  <tr>
+                    <td colspan="5" style="border: 0px solid #D6D4D4; text-align: center; color: #000000; padding: 17px 0;">
+                      {discounts}</td>
+                  </tr>
+                  <tr class="conf_body">
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"> <strong>Productos</strong> </span></td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8" align="right">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"> {total_products} </span></td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr class="conf_body">
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"> <strong>Descuentos</strong> </span></td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"> {total_discounts} </span></td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr class="conf_body">
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"> <strong>Embalaje de regalo</strong> </span></td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"> {total_wrapping} </span></td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr class="conf_body">
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"> <strong>Transporte</strong> </span></td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"> {total_shipping} </span></td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr class="conf_body">
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"> <strong>Impuestos totales pagados</strong> </span>
+                            </td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"> {total_tax_paid} </span></td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr class="conf_body">
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"> <strong>Total pagado</strong> </span></td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td colspan="4" class="table-fn" bgcolor="#f8f8f8">
+                      <table class="table" style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                            <td style="color: #333; padding: 0;" align="right"><span style="color: #555454; font-family: Arial, sans-serif; font-size: large;" size="4" face="Open-sans, sans-serif"> {total_paid} </span></td>
+                            <td style="color: #333; padding: 0;" width="10"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-table>
+          <tr>
+            <td class="box table-fn">
+              <table class="table" style="width: 100%;">
+                <tbody>
+                  <tr>
+                    <td style="padding: 10px 10px;">
+                      <p data-html-only="1" class="table-title">
+                        Transporte</p>
+                      <p class="table-text" size="2"><strong>Transportista</strong> {carrier}<br /><strong>Pago:</strong> {payment}</p>
+                    </td>
+                    <td style="padding: 17px 0;" width="10"> </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-table>
+          <tr>
+
+            <table class="table" style="width: 100%;">
+              <tbody>
+                <tr>
+                  <td class="box address table-fn">
+                    <table class="table" style="width: 100%;">
+                      <tbody>
+                        <tr>
+                          <td class="box">
+                            <p data-html-only="1" class="table-title">
+                              Dirección de entrega</p>
+                            <span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"><span data-html-only="1" style="color: #777;">
+                                {delivery_block_html} </span> </span>
+                          </td>
+                          <td style="padding: 7px 0;" width="10"> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td class="space_address" style="padding: 7px 0;" width="20"> </td>
+                  <td class="box address table-fn">
+                    <table class="table" style="width: 100%;">
+                      <tbody>
+                        <tr>
+                          <td class="box">
+                            <p data-html-only="1" class="table-title">
+                              Dirección de facturación</p>
+                            <span style="color: #555454; font-family: Arial, sans-serif; font-size: small;" size="2" face="Open-sans, sans-serif"><span data-html-only="1" style="color: #777;">
+                                {invoice_block_html}  </span> </span>
+                          </td>
+                          <td style="padding: 7px 0;" width="10"> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+
+  </mj-body>
+</mjml>

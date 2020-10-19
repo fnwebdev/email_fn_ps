@@ -1,0 +1,8 @@
+[{shop_url}] 
+ 
+¡Hola!,
+ 
+Ha recibido un nuevo comentario para el producto "{product_name}"
+ 
+{comment_content}
+{shop_name} [{shop_url}]
