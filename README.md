@@ -1,6 +1,37 @@
-# GENERAR HTML COMPLETO A PARTIR DE CORE.mjml
+# FANTASY NAILS. Email system for Prestahsop
 
-If you're looking for MJML 3.3.X check [this branch](https://github.com/mjmlio/mjml/tree/3.3.x)
+# Folder Structure
+Local Folder: V:\WEB\EMAIL\Prestashop\DESARROLLO\email_fn_ps
+
+# Process
+Generate a complete HTML file form source `core.mjml`
+In the core.mjml are included all the `main components:`
+V:\WEB\EMAIL\Prestashop\DESARROLLO\email_fn_ps\core\core.mjml
+
+    <mj-include path="../components/header.mjml" />
+    <mj-include path="../components/menu.mjml" />
+    <mj-include path="../components/main.mjml" />
+    <mj-include path="../components/hero.mjml" />
+    <mj-include path="../components/hero-image.mjml" />    
+    <mj-include path="../components/primary_text.mjml" />    
+    <mj-include path="../components/badge.mjml" />
+    <mj-include path="../components/button_black.mjml" />
+    <mj-include path="../components/button_white.mjml" />
+    <mj-include path="../components/order_table.mjml" />
+    <mj-include path="../components/secondary_text.mjml" />
+    <mj-include path="../components/promo.mjml" />
+    <mj-include path="../components/footer.mjml" />
+    <mj-include path="../components/postfooter.mjml" />
+
+# Images
+Design folder is on a folder one level up: V:\WEB\EMAIL\Prestashop\DISEÑO\imagenes\export
+This folder is not in this project as only `email_fn_ps` has .git folder.
+
+
+# GUIA MJML
+https://github.com/mjmlio/mjml
+
+`MJML` is a markup language created by [Mailjet](https://www.mailjet.com/) and designed to reduce the pain of coding a responsive email. Its semantic syntax makes the language easy and straightforward while its rich standard components library shortens your development time and lightens your email codebase. MJML’s open-source engine takes care of translating the `MJML` you wrote into responsive HTML.
 
 <p align="center">
   <a href="https://mjml.io" target="_blank">
