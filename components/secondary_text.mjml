@@ -46,10 +46,9 @@
     <mj-text mj-class="secondary-text" css-class="content-padding">
       <p style="font-weight: bold">ℹ Más info</p>
       <p>
-        • Localiza el envío desde aquí <a href="#">{followup}</a><br />
-        • Revisa tu pedido desde aquí <a href="#">{order_history}</a>.<br />
-        • ¿Has comprado como invitado? sigue tu pedido desde nuestra sección
-        <a href="#">{seguimiento de invitado}</a>.
+        • Localiza <a href="{followup}">el envío</a>.<br />
+        • Revisa <a href="{order_history}">tu pedido</a>.<br />
+        • ¿Has comprado como invitado? sigue tu pedido <a href="{seguimiento de invitado}">aquí</a>.
       </p>
       <p>¡Nos vemos pronto!</p>
     </mj-text>

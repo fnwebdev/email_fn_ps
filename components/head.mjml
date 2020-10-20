@@ -119,10 +119,11 @@
       />
       <mj-class
         name="navbar-text"
-        font-family="helvetica"
-        font-size="14px"
-        font-weight="bold"
-        padding="0px 11px 10px 12px"
+        font-family="arial"
+        font-size="12px"
+        font-weight="100"
+        padding="0px 7px 10px 7px"
+        color="#000000"
       />
     </mj-attributes>
     <mj-style inline="inline">

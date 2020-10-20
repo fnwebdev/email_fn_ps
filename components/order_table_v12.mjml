@@ -37,7 +37,7 @@
             background-color: #ed277221;
             color: #000000;
           "
-          colspan="1"
+          colspan="2"
         >
           Producto
         </th>
@@ -73,35 +73,30 @@
         </th>
       </tr>
       <tr style="border-collapse: collapse;color: #000000;  border: 4px solid #ffffff ; background-color: #f8f8f8">
-        <th style="text-align: center; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="6">{products}</th></tr>
-      <tr style="border-collapse: collapse;color: #000000;  border: 4px solid #ffffff ; background-color: #f8f8f8">
-         <th style="text-align: center; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="6">{discounts}</th>
-        </tr>
-      <tr style="border-collapse: collapse;color: #000000;  border: 4px solid #ffffff ; background-color: #f8f8f8">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">Productos</th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_products}</th>
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="4">Productos</th>
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">{total_products}</th>
       </tr>
       <tr style="border-collapse: collapse; border: 1px solid black">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">Descuentos</th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_discounts}</th>
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="4">Descuentos</th>
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">{total_discounts}</th>
       </tr>
       <tr style="border-collapse: collapse; border: 1px solid black">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">Embalaje de regalo</th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_wrapping}</th>
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="4">Embalaje de regalo</th>
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">{total_wrapping}</th>
       </tr>
       <tr style="border-collapse: collapse; border: 1px solid black">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">Transporte</th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_shipping}</th>
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="4">Transporte</th>
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">{total_shipping}</th>
       </tr>
       <tr style="border-collapse: collapse; border: 1px solid black">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="4">
           Incluyendo impuestos totales
         </th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_tax_paid}</th>
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">{total_tax_paid}</th>
       </tr>
       <tr style="border-collapse: collapse; border: 1px solid black">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">Total pagado</th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_paid}</th>
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="4">Total pagado</th>
+        <th style="color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">{total_paid}</th>
       </tr>
     </mj-table>
   </mj-column>
@@ -114,19 +109,17 @@
       <p style="font-weight: bold">🚚 Información del envío</p>
       <p>
         • Transportista: {carrier}<br>
-        • Localiza <a href="{followup}">el envío</a>.
-      </p><br>
-      <p style="font-weight: bold">📦 Dirección de entrega</p>
-      <p>
+        • Dirección de entrega:<br>
         {delivery_block_html}<br>
-        </p><br>
-      <p style="font-weight: bold">📝 Dirección de facturación</p>
-      <p>
-        {invoice_block_html}<br>
-        </p><br>
-
+        • Dirección de facturación:<br>
+        {invoice_block_html}
+      </p>
+    </mj-text>
+    
+        <mj-text mj-class="secondary-text" css-class="content-padding">
       <p style="font-weight: bold">ℹ Más info</p>
       <p>
+        • Localiza <a href="{followup}">el envío</a>.<br />
         • Revisa <a href="{order_history}">tu pedido</a>.<br />
         • ¿Has comprado como invitado? sigue tu pedido <a href="{seguimiento de invitado}">aquí</a>.
       </p>      
