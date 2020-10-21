@@ -82,6 +82,24 @@ git  <mj-head>
         line-height="150%"
       />
       <mj-class
+        name="voucher-white"
+        display="inline-block"
+        background-color="#fff"
+        color="#000"
+        font-family="Arial"
+        font-size="25px"
+        font-weight="normal"
+        line-height="150%"
+        margin="0px"
+        text-decoration="none"
+        text-transform="none"
+        padding="25px 45px"
+        mso-padding-alt="0px"
+        border-radius="0px"
+        letter-spacing="4px"
+        border="dashed 2px"
+      />
+      <mj-class
         name="button-white"
         display="inline-block"
         background-color="#fff"

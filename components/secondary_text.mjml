@@ -48,7 +48,7 @@
       <p>
         • Localiza <a href="{followup}">el envío</a>.<br />
         • Revisa <a href="{order_history}">tu pedido</a>.<br />
-        • ¿Has comprado como invitado? sigue tu pedido <a href="{seguimiento de invitado}">aquí</a>.
+        • ¿Has comprado como invitado? Sigue tu pedido <a href="{seguimiento de invitado}">desde aquí</a>.
       </p>
       <p>¡Nos vemos pronto!</p>
     </mj-text>
