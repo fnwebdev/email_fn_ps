@@ -4,7 +4,7 @@
       name="menu"
       background-color="#ffffff"
       padding="0px 0px 0px 0px"
-      css-class="hide_on_mobile"
+      css-class="show-on-desktop"
     >
       <mj-column padding="0px 0px 0px 0px">
         <mj-navbar base-url="https://fantasynails.es/es/" ico-color="#000000">

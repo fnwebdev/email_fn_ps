@@ -12,9 +12,10 @@
 </mj-column>
 </mj-section>
 
-<mj-raw>
+<mj-section background-color="#ffffff">
+<mj-column>
 
-<table class="table" bgcolor="#ffffff" style="width:100%">
+<mj-table class="table" bgcolor="#ffffff" style="width:">
 					
 					
 					<tr>
@@ -223,120 +224,12 @@
 							</font>
 						</td>
 					</tr>
-					
-					<tr>
-						<td class="space_footer" style="padding:0!important">&nbsp;</td>
-					</tr>
-					
-					<tr>
-						<td class="space_footer" style="padding:0!important">&nbsp;</td>
-					</tr>
-					
-					<tr>
-						<td class="space_footer" style="padding:0!important">&nbsp;</td>
-					</tr>
-					<tr>
-						<td class="footer" style="border-top:2px solid #333333;padding:7px 0">							
-						</td>
-					</tr>
-				</table>
-
-</mj-raw>
-
-<mj-section
-  id="order-table"
-  background-color="#ffffff"
-  padding="0px 20px 20px"
-  border="0px solid red"
->
-  <mj-column border="0px solid blue" padding="0px">
-    <mj-table padding="0px" mj-class="order-table">
-      <tr style="border-collapse: collapse; border: 1px solid black">
-        <th
-          style="
-            border: 2px solid #ffffff;
-            background-color: #ed277221;
-            color: #000000;
-          "
-          colspan="1"
-        >
-          Ref.
-        </th>
-        <th
-          style="
-            border: 2px solid #ffffff;
-            background-color: #ed277221;
-            color: #000000;
-          "
-          colspan="1"
-        >
-          Producto
-        </th>
-        <th
-          style="
-            border: 2px solid #ffffff;
-            background-color: #ed277221;
-            color: #000000;
-          "
-          colspan="1"
-        >
-          Precio ud
-        </th>
-        <th
-          style="
-            border: 2px solid #ffffff;
-            background-color: #ed277221;
-            color: #000000;
-          "
-          colspan="1"
-        >
-          Cantidad
-        </th>
-        <th
-          style="
-            border: 2px solid #ffffff;
-            background-color: #ed277221;
-            color: #000000;
-          "
-          colspan="1"
-        >
-          Precio total
-        </th>
-      </tr>
-      <tr style="border-collapse: collapse;color: #000000;  border: 4px solid #ffffff ; background-color: #f8f8f8">
-        <th style="text-align: center; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="6">{products}</th></tr>
-      <tr style="border-collapse: collapse;color: #000000;  border: 4px solid #ffffff ; background-color: #f8f8f8">
-         <th style="text-align: center; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="6">{discounts}</th>
-        </tr>
-      <tr style="border-collapse: collapse;color: #000000;  border: 4px solid #ffffff ; background-color: #f8f8f8">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">Productos</th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_products}</th>
-      </tr>
-      <tr style="border-collapse: collapse; border: 1px solid black">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">Descuentos</th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_discounts}</th>
-      </tr>
-      <tr style="border-collapse: collapse; border: 1px solid black">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">Embalaje de regalo</th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_wrapping}</th>
-      </tr>
-      <tr style="border-collapse: collapse; border: 1px solid black">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">Transporte</th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_shipping}</th>
-      </tr>
-      <tr style="border-collapse: collapse; border: 1px solid black">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">
-          Incluyendo impuestos totales
-        </th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_tax_paid}</th>
-      </tr>
-      <tr style="border-collapse: collapse; border: 1px solid black">
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="2">Total pagado</th>
-        <th style="text-align: right; padding-right: 15px; color: #000000; border: 4px solid #ffffff ; background-color: #f8f8f8" colspan="3">{total_paid}</th>
-      </tr>
-    </mj-table>
-  </mj-column>
+									
+</mj-table>
+</mj-column>  
 </mj-section>
+
+
 
 <mj-section name="secondary" padding="0px 0px 20px 0px" background-color="#fff">
   <mj-column>
@@ -347,7 +240,7 @@
         • Transportista: {carrier}<br>
         • Localiza <a href="{followup}">el envío</a>.
       </p><br>
-      <p style="font-weight: bold">📦 Dirección de entrega</p>
+      <p style="font-weight: bold">🏠 Dirección de entrega</p>
       <p>
         {delivery_block_html}<br>
         </p><br>

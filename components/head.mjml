@@ -125,7 +125,7 @@
         color="#000000"
       />
     </mj-attributes>
-    <mj-style inline="inline">
+    <mj-style>
       a, a p { text-decoration: none; color: #ED2772; font-weight:bold } 
       .footer-text a { color: #848484; }
       .center-text div { text-align: center !important; } 
@@ -138,9 +138,9 @@
       .content-padding p, .content-padding td { padding:
       0px 20px; } 
       .button-black { padding: 20px 25px !important;}
-      .hide_on_mobile { display: none;}
+      .show-on-desktop { display: block;}
     </mj-style>
-    <mj-style>
+    <!--<mj-style>
       @media (min-width:480px) { 
         .content-padding, .content-padding td {
           padding: 10px 40px !important; }
@@ -150,9 +150,10 @@
         }
       	.button-black { padding: 20px 65px !important;}
       @media only screen and (min-width:580px) { 
-        .hide_on_mobile { display: block !important; } 
+        .show-on-desktop { display: block !important; } 
         }
     </mj-style>
+    -->
     <mj-style>
       .box {
         padding: 10px 10px 0px;
@@ -183,6 +184,8 @@
 
       }
     </mj-style>
+
+
     <mj-style>
       <style>	@media only screen and (max-width: 300px){ 
 				body {
@@ -202,7 +205,9 @@
 				.table-recap tr td, .conf_body td{text-align:center !important;}	
 				.address{display: block !important;margin-bottom: 10px !important;}
 				.space_address{display: none !important;}	
+        .show-on-desktop { display: none !important;} 
 			}
+
 	@media only screen and (min-width: 301px) and (max-width: 500px) { 
 				body {width:425px!important;margin:auto!important;}
 				thead, tbody{width: 100%}
@@ -211,13 +216,15 @@
 				.table-recap{width: 295px !important;}
 				.table-recap tr td, .conf_body td{text-align:center !important;}
 				.table-recap tr th{font-size: 10px !important}
+        .show-on-desktop { display: none !important;} 
 				
 			}
 	@media only screen and (min-width: 501px) and (max-width: 768px) {
 				body {width:478px!important;margin:auto!important;}
 				thead, tbody{width: 100%}
 				.table {margin:auto!important;}	
-				.logo, .titleblock, .linkbelow, .box, .footer, .space_footer{width:auto!important;display: block!important;}			
+				.logo, .titleblock, .linkbelow, .box, .footer, .space_footer{width:auto!important;display: block!important;}
+        .show-on-desktop { display: none !important;} 			
 			}
 	@media only screen and (max-device-width: 480px) { 
 				body {width:340px!important;margin:auto!important;}
@@ -229,6 +236,7 @@
 				.table-recap tr td, .conf_body td{text-align:center!important;}	
 				.address{display: block !important;margin-bottom: 10px !important;}
 				.space_address{display: none !important;}	
+        .show-on-desktop { display: none !important;} 
 			}
 </style>
     </mj-style>
