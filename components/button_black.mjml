@@ -1,13 +1,14 @@
-<!-- BUTTON -->
+ <!-- BUTTON -->
 
     <mj-section
       name="button"
-      padding="0px 0px 20px 0px"
+      padding="0px 0px 0px 0px"
       background-color="#fff"
     >
-      <mj-column css-class="content-padding">
+      <mj-column css-class="">
         <mj-button
           mj-class="button-black"
+          css-class="button-black"
           href="https://fantasynails.es/"
           align="left"
         >
@@ -18,5 +19,5 @@
     <mj-section
       name="secondary"
       padding="0px 0px 20px 0px"
-      background-color="#fff"
-    >
+      background-color="#fff">    
+    </mj-section>
