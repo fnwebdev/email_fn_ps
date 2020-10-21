@@ -137,7 +137,7 @@
       hsla(0, 0%, 0%, 0.4); } 
       .content-padding p, .content-padding td { padding:
       0px 20px; } 
-      .button-black { padding: 20px 25px !important;}
+      .button-black { padding: 20px 25px 10px !important;}
       .show-on-desktop { display: block;}
     </mj-style>
     <!--<mj-style>
