@@ -1,4 +1,4 @@
-<mj-section name="secondary" padding="0px 0px 10px 0px" background-color="#fff">
+<mj-section name="secondary" padding="0px 0px 20px 0px" background-color="#fff">
   <mj-column>
   <mj-text mj-class="secondary-text" css-class="content-padding">
       <p style="font-weight: bold">📦 Detalles de tu pedido:</p>
@@ -11,8 +11,8 @@
     </mj-text>
 </mj-column>
 </mj-section>
-<!-- ONE LINE ORDER LIST
-<mj-section name="" padding="0px 0px 20px 0px" background-color="#fff">
+
+<mj-section name="secondary" padding="0px 0px 20px 0px" background-color="#fff">
   <mj-column>
   <mj-text mj-class="secondary-text" css-class="content-padding">
       <p>{products}</p>
@@ -24,17 +24,17 @@
 <mj-section name="secondary" padding="0px 0px 20px 0px" background-color="#fff">
   <mj-column>
   <mj-text mj-class="secondary-text" css-class="content-padding">
-      <p><span style="font-weight: bold">Productos: </span>{total_products}</p>
-			<p><span style="font-weight: bold">Descuentos: </span>{total_discounts}	 </p>
-			<p><span style="font-weight: bold">Embalaje de regalo: </span>	{total_wrapping}	</p>
-			<p><span style="font-weight: bold">Transporte: </span>	{total_shipping}	</p>
-			<p><span style="font-weight: bold">Impuestos totales pagados: </span>{total_tax_paid}</p>
-			<p><span style="font-weight: bold">Total pagado: </span>	{total_paid}	</p>
+      <p><span style="font-weight: bold">Productos: </span>{total_products}</p><br>
+			<p><span style="font-weight: bold">Descuentos: </span>{total_discounts}	 </p><br>
+			<p><span style="font-weight: bold">Embalaje de regalo: </span>	{total_wrapping}	</p><br>
+			<p><span style="font-weight: bold">Transporte: </span>	{total_shipping}	</p><br>
+			<p><span style="font-weight: bold">Impuestos totales pagados: </span>{total_tax_paid}</p><br>
+			<p><span style="font-weight: bold">Total pagado: </span>	{total_paid}	</p><br>
       </p>
     </mj-text>
 </mj-column>
 </mj-section>
--->
+
 <mj-section background-color="#ffffff">
 <mj-column>
 
@@ -254,7 +254,7 @@
 
 
 
-<mj-section name="secondary" padding="0px 0px 0px 0px" background-color="#fff">
+<mj-section name="secondary" padding="0px 0px 20px 0px" background-color="#fff">
   <mj-column>
       </mj-text>
         <mj-text mj-class="secondary-text" css-class="content-padding">

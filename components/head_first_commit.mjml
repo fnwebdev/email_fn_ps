@@ -49,19 +49,18 @@
         name="primary-text"
         color="#000"
         font-size="18px"
+        letter-spacing=""
         font-family="arial"
-        margin="0px"
-        padding="0px"
+        font-weight=""
         line-height="150%"
       />
-     
       <mj-class
         name="secondary-text"
         color="#000"
         font-size="14px"
+        letter-spacing=""
         font-family="arial"
-        margin="0px"
-        padding="0px"
+        font-weight=""
         line-height="150%"
       />
       <mj-class
@@ -102,10 +101,10 @@
       />
       <mj-class
         name="navbar-text"
-        font-family="arial"
-        font-size="12px"
+        font-family="helvetica"
+        font-size="14px"
         font-weight="bold"
-        padding="0px 6px 10px 6px"
+        padding="0px 11px 10px 12px"
       />
     </mj-attributes>
     <mj-style inline="inline">

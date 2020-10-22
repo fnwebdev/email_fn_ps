@@ -1,4 +1,4 @@
-      <mj-section padding="20px 20px 20px 20px" background-color="#fff">
+      <mj-section padding="20px 20px 40px 20px" background-color="#fff">
       <mj-column>
         <mj-text mj-class="main-title" css-class="center-text content-padding" padding="0px 0px 20px 0px"
           >¡Título main y la {variable aquí}!</mj-text
