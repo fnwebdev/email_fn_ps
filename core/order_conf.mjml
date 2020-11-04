@@ -6,7 +6,9 @@
     <mj-include path="../components/main.mjml" />
     <mj-include path="../components/hero_image.mjml" />
     <mj-include path="../components/primary_text.mjml" /> 
+    <mj-include path="../components/secondary_order-details.mjml" />
     <mj-include path="../components/order_table.mjml" />
+    <mj-include path="../components/secondary_shipment.mjml" />
     <mj-include path="../components/promo.mjml" />
     <mj-include path="../components/footer.mjml" />
     <mj-include path="../components/postfooter.mjml" />

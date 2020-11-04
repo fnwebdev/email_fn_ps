@@ -7,7 +7,8 @@
     <mj-include path="../components/hero_button.mjml" />
     <mj-include path="../components/primary_text.mjml" />
     <mj-include path="../components/button_black.mjml" />   
-    <mj-include path="../components/secondary_text.mjml" />
+    <mj-include path="../components/secondary_order_details.mjml" />
+    <mj-include path="../components/secondary_more_info.mjml" />
     <mj-include path="../components/promo.mjml" />
     <mj-include path="../components/footer.mjml" />
     <mj-include path="../components/postfooter.mjml" />
