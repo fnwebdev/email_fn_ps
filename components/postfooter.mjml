@@ -1,3 +1,5 @@
+    <!-- POST FOOTER START -->
+    
     <mj-section padding="20px 0px 20px 0px">
       <mj-column>
         <mj-text mj-class="footer-text" css-class="footer-text center-text">
@@ -58,3 +60,4 @@
         </mj-text>
       </mj-column>
     </mj-section>
+  <!-- POST FOOTER END -->

@@ -1,4 +1,4 @@
-  <!-- HERO IMAGE -->
+  <!-- HERO IMAGE START -->
 
         <mj-hero
         mode="fixed-height"
@@ -11,3 +11,5 @@
       >
         
       </mj-hero>
+
+  <!-- HERO IMAGE END -->

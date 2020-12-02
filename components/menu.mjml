@@ -1,4 +1,4 @@
-<!-- MENU -->
+<!-- MENU START -->
 
     <mj-section
       name="menu"
@@ -31,3 +31,5 @@
         </mj-navbar>
       </mj-column>
     </mj-section>
+
+  <!-- MENU END -->

@@ -1,3 +1,5 @@
+<!-- PROMO START -->
+
 <mj-section padding="0px 0px 0px 0px">
       <mj-group>
         <mj-column padding="0px 0px 0px 0px">
@@ -39,3 +41,5 @@
         </mj-column>
       </mj-group>
     </mj-section>
+
+    <!-- PROMO END -->

@@ -1,3 +1,5 @@
+<!-- SECONDARY ORDER DETAILS START -->
+
 <mj-section name="secondary-detalles-pedido" padding="0px 0px 10px 0px" background-color="#fff">
   <mj-column>
   <mj-text mj-class="secondary-text" css-class="content-padding">
@@ -12,4 +14,5 @@
 </mj-column>
 </mj-section>
 
+<!-- SECONDARY ORDER DETAILS END -->
 

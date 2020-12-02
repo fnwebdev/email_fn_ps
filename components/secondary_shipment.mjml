@@ -1,3 +1,5 @@
+<!-- SECONDARY SHIPMENT START -->
+
 <mj-section name="secondary" padding="0px 0px 0px 0px" background-color="#fff">
   <mj-column>
       </mj-text>
@@ -24,5 +26,5 @@
     </mj-text>
   </mj-column>
 </mj-section>
-
+<!-- SECONDARY SHIPMENT END -->
 

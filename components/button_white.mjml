@@ -1,4 +1,4 @@
-<!-- BUTTON -->
+<!-- BUTTON WHITE START -->
 
     <mj-section
       name="button"
@@ -20,7 +20,7 @@
     <mj-section
       name="secondary"
       padding="0px 0px 20px 0px"
-      background-color="#fff"
-    >
+      background-color="#fff">    
+    </mj-section>
 
-    
+  <!-- BUTTON WHITE END -->

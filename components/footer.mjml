@@ -1,3 +1,4 @@
+    <!-- FOOTER START -->
     <!-- SHOP & LOOKS -->
 
     <mj-section padding="10px 0px 10px 0px" background-color="#000">
@@ -64,3 +65,4 @@
         </mj-social>
       </mj-column>
     </mj-section>
+     <!-- FOOTER END -->

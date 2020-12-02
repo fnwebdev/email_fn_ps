@@ -1,3 +1,4 @@
+<!-- HEAD START -->
 <mj-head>
     <mj-title>Email title Text</mj-title>
     <mj-preview>Email Preview Text</mj-preview>
@@ -344,3 +345,4 @@
       }
     </mj-style>
   </mj-head>
+<!-- HEAD END -->

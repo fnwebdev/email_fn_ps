@@ -1,4 +1,4 @@
-<!-- HERO BUTTON -->
+<!-- HERO BUTTON START -->
 
       <mj-hero
         mode="fixed-height"
@@ -19,3 +19,5 @@
           VISITANOS &#x25BA;
         </mj-button>
       </mj-hero>
+    
+<!-- HERO BUTTON END -->

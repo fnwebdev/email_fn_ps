@@ -1,4 +1,4 @@
-<!-- VOUCHER -->
+<!-- VOUCHER WHITE START -->
 
 <mj-hero
         mode="fixed-height"
@@ -17,3 +17,6 @@
           {voucher_num}
         </mj-button>
       </mj-hero>
+
+
+  <!-- VOUCHER WHITE END -->

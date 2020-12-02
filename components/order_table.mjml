@@ -1,3 +1,4 @@
+<!-- ORDER TABLE START -->
 <!-- ONE LINE ORDER LIST
 <mj-section name="" padding="0px 0px 20px 0px" background-color="#fff">
   <mj-column>
@@ -238,3 +239,4 @@
 </mj-table>
 </mj-column>  
 </mj-section>
+<!-- ORDER TABLE END -->
