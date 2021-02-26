@@ -1,5 +1,5 @@
 <mjml>
-<mj-include path="../components/head.mjml" />
+<mj-include path="../components/head_order.mjml" />
   <mj-body background-color="#F8F8F8">
     <mj-include path="../components/header.mjml" />
     <mj-include path="../components/menu.mjml" />

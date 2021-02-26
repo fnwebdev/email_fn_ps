@@ -1,6 +1,6 @@
 <!-- SECONDARY ORDER DETAILS START -->
 
-<mj-section name="secondary-detalles-pedido" padding="0px 0px 10px 0px" background-color="#fff">
+<mj-section name="secondary-detalles-pedido" padding="0px 20px 10px 20px" background-color="#fff">
   <mj-column>
   <mj-text mj-class="secondary-text" css-class="content-padding">
       <p style="font-weight: bold">📦 Detalles de tu pedido:</p>

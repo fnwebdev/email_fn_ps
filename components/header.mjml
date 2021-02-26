@@ -3,8 +3,13 @@
       <mj-column>
         <mj-image
           width="232px"
-          src="https://fantasynails.es/fn_content/email_fn_ps/assets/header/logo-header.png"
+          src="https://fantasynails.es/fn_content/email_fn_ps/assets/header/logo-header.png" 
+          alt="img"
         ></mj-image>
       </mj-column>
     </mj-section>    
     <!-- HEADER END -->
+
+
+https://mjml.io/assets/img/logo-small.png
+https://fantasynails.es/fn_content/email_fn_ps/assets/header/logo-header.png

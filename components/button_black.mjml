@@ -1,11 +1,6 @@
  <!-- BUTTON BLACK START -->
-
-    <mj-section
-      name="button"
-      padding="0px 0px 0px 0px"
-      background-color="#fff"
-    >
-      <mj-column css-class="">
+      <mj-section border="0px solid #000000" background-color="#fff" padding= "0px 10px 0px 10px">
+      <mj-column role="presentation" border="0" css-class="" padding= "0px 0px">
         <mj-button
           mj-class="button-black"
           css-class="button-black"
@@ -16,10 +11,12 @@
         </mj-button>
       </mj-column>
     </mj-section>
+    
     <mj-section
       name="secondary"
       padding="0px 0px 20px 0px"
-      background-color="#fff">    
+      background-color="#fff"> 
+      <mj-column role="presentation" border="0" css-class="" padding= "0px 0px">   
     </mj-section>
 
   <!-- BUTTON BLACK END -->

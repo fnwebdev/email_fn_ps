@@ -1,6 +1,6 @@
 <!-- SECONDARY SHIPMENT START -->
 
-<mj-section name="secondary" padding="0px 0px 0px 0px" background-color="#fff">
+<mj-section name="secondary" padding="0px 20px 0px 20px" background-color="#fff">
   <mj-column>
       </mj-text>
         <mj-text mj-class="secondary-text" css-class="content-padding">

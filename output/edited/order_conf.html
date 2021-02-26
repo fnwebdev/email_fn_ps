@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
-  <title> ¡Tu compra se ha realizado correctamente! 👍   </title>
+  <title> ¡Tu compra se ha realizado correctamente! 👍</title>
   <!--[if !mso]><!-- -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!--<![endif]-->
@@ -348,8 +348,9 @@
 </head>
 
 <body style="background-color:#F8F8F8;">
-  <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> ¡Muy pronto podrás disfrutar de tu pedido!  </div>
+  <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> ¡Muy pronto podrás disfrutar de tu pedido! </div>
   <div style="background-color:#F8F8F8;">
+    <!-- HEADER START -->
     <!--[if mso | IE]>
       <table
          align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
@@ -405,7 +406,8 @@
         </tr>
       </table>
       <![endif]-->
-    <!-- MENU -->
+    <!-- HEADER END -->
+    <!-- MENU START -->
     <!--[if mso | IE]>
       <table
          align="center" border="0" cellpadding="0" cellspacing="0" class="hide_on_mobile-outlook" style="width:600px;" width="600"
@@ -543,7 +545,10 @@
           </td>
         </tr>
       </table>
-      
+      <![endif]-->
+    <!-- MENU END -->
+    <!-- MAIN START -->
+    <!--[if mso | IE]>
       <table
          align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
       >
@@ -568,9 +573,9 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
                     <td align="left" class="center-text content-padding" style="font-size:0px;padding:0px 0px 20px 0px;word-break:break-word;">
-                      <div style="font-family: arial; font-size: 35px; font-weight: bold; line-height: 120%; color: #000000; text-align: center;">¡Tu compra se ha realizado correctamente! 👍  </div>
+                      <div style="font-family: arial; font-size: 35px; font-weight: bold; line-height: 120%; color: #000000; text-align: center;">¡Tu compra se ha realizado correctamente! 👍</div>
                     </td>
-                  </tr>                 
+                  </tr>
                 </table>
               </div>
               <!--[if mso | IE]>
@@ -590,7 +595,8 @@
         </tr>
       </table>
       <![endif]-->
-    <!-- HERO IMAGE -->
+    <!-- MAIN END -->
+    <!-- HERO IMAGE START -->
     <!--[if mso | IE]>
         <table
            align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px;" width="600"
@@ -636,7 +642,8 @@
         </tr>
       </table>
     <![endif]-->
-    <!-- PRIMARY -->
+    <!-- HERO IMAGE END -->
+    <!-- PRIMARY TEXT START -->
     <!--[if mso | IE]>
       <table
          align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
@@ -648,14 +655,14 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0px 20px;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:20px 20px 20px 20px;text-align:center;">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:600px;"
+               class="" style="vertical-align:top;width:560px;"
             >
           <![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
@@ -682,31 +689,37 @@
         </tbody>
       </table>
     </div>
-              <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
     <!--[if mso | IE]>
           </td>
         </tr>
       </table>
-      
-      <table
-         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
-      >
-        <tr>
-          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
       <![endif]-->
+    <!-- PRIMARY TEXT END -->
+    <!-- mj-include fails to read file : ../components/secondary_order-details.mjml at V:\WEB\PRESTASHOP\EMAIL\DESARROLLO\email_fn_ps\components\secondary_order-details.mjml -->
+    <!-- ORDER TABLE START -->
+    <!-- ONE LINE ORDER LIST
+<mj-section name="" padding="0px 0px 20px 0px" background-color="#fff">
+  <mj-column>
+  <mj-text mj-class="secondary-text" css-class="content-padding">
+      <p>{products}</p>
+			<p> {discounts}</p>
+    </mj-text>
+</mj-column>
+</mj-section>
 
-<!-- ORDER LIST START -->
+<mj-section name="secondary" padding="0px 0px 20px 0px" background-color="#fff">
+  <mj-column>
+  <mj-text mj-class="secondary-text" css-class="content-padding">
+      <p><span style="font-weight: bold">Productos: </span>{total_products}</p>
+			<p><span style="font-weight: bold">Descuentos: </span>{total_discounts}	 </p>
+			<p><span style="font-weight: bold">Embalaje de regalo: </span>	{total_wrapping}	</p>
+			<p><span style="font-weight: bold">Transporte: </span>	{total_shipping}	</p>
+			<p><span style="font-weight: bold">Impuestos totales pagados: </span>{total_tax_paid}</p>
+			<p><span style="font-weight: bold">Total pagado: </span>	{total_paid}	</p>
+      </p>
+    </mj-text>
+</mj-column>
+</mj-section> -->
     <!--[if mso | IE]>
       <table
          align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
@@ -714,240 +727,11 @@
         <tr>
           <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
       <![endif]-->
-      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
-        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
-          <tbody>
-            <tr>
-              <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-                <!--[if mso | IE]>
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                  
-          <tr>
-        
-              <td
-                 class="" style="vertical-align:top;width:600px;"
-              >
-            <![endif]-->
-                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <table cellpadding="0" cellspacing="0" width="100%" border="0" style="color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none;">
-                          <tr>
-                            <td style="padding:7px 0">
-                              <font size="2" face="Open-sans, sans-serif" color="#555454">
-                                <table class="table table-recap" bgcolor="#ffffff" style="width:100%;border-collapse:collapse">
-                                  <!-- Title -->
-                                  <tr>
-                                    <th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;"> Referencia</th>
-                                    <th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;"> Producto</th>
-                                    <th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;" width="17%">Precio unitario</th>
-                                    <th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;"> Cantidad</th>
-                                    <th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;" width="17%">Precio total</th>
-                                  </tr>
-                                  <tr>
-                                    <td colspan="5" style="border:1px solid #D6D4D4;text-align:center;color:#777;padding:7px 0"> &nbsp;&nbsp;{products} </td>
-                                  </tr>
-                                  <tr>
-                                    <td colspan="5" style="border:1px solid #D6D4D4;text-align:center;color:#777;padding:7px 0"> &nbsp;&nbsp;{discounts} </td>
-                                  </tr>
-                                  <tr class="conf_body">
-                                    <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="2" face="Open-sans, sans-serif" color="#555454">
-                                              <strong>Productos</strong>
-                                            </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                    <td bgcolor="#f8f8f8" align="right" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="2" face="Open-sans, sans-serif" color="#555454"> {total_products} </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                  <tr class="conf_body">
-                                    <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="2" face="Open-sans, sans-serif" color="#555454">
-                                              <strong>Descuentos</strong>
-                                            </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                    <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="2" face="Open-sans, sans-serif" color="#555454"> {total_discounts} </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                  <tr class="conf_body">
-                                    <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="2" face="Open-sans, sans-serif" color="#555454">
-                                              <strong>Embalaje de regalo</strong>
-                                            </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                    <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="2" face="Open-sans, sans-serif" color="#555454"> {total_wrapping} </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                  <tr class="conf_body">
-                                    <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="2" face="Open-sans, sans-serif" color="#555454">
-                                              <strong>Transporte</strong>
-                                            </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                    <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="2" face="Open-sans, sans-serif" color="#555454"> {total_shipping} </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                  <tr class="conf_body">
-                                    <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="2" face="Open-sans, sans-serif" color="#555454">
-                                              <strong>Impuestos totales pagados</strong>
-                                            </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                    <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="2" face="Open-sans, sans-serif" color="#555454"> {total_tax_paid} </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                  <tr class="conf_body">
-                                    <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="2" face="Open-sans, sans-serif" color="#555454">
-                                              <strong>Total pagado</strong>
-                                            </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                    <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
-                                      <table class="table" style="width:100%;border-collapse:collapse">
-                                        <tr>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                          <td align="right" style="color:#333;padding:0">
-                                            <font size="4" face="Open-sans, sans-serif" color="#555454"> {total_paid} </font>
-                                          </td>
-                                          <td width="10" style="color:#333;padding:0">&nbsp;</td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </table>
-                              </font>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <!--[if mso | IE]>
-              </td>
-            
-          </tr>
-        
-                    </table>
-                  <![endif]-->
-    </div>
-    <!--[if mso | IE]>
-            </td>
-          </tr>
-        </table>
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
-        >
-          <tr>
-            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
-        <![endif]-->
-  
-  <!-- ORDER LIST END -->
-    
     <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0px 0px 10px 0px;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
               <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -960,36 +744,282 @@
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tr>
-                    <td align="left" class="content-padding" style="font-size:0px;padding:0px;word-break:break-word;">
-                      <div style="font-family:arial;font-size:14px;line-height:150%;text-align:left;color:#000000;">
-                        <p style="padding: 0px 20px; font-weight: bold;">📦 Detalles de tu pedido:</p>
-                        <p style="padding: 0px 20px;"> • ID Pedido {order_name}<br> • Fecha: {date}<br> • Importe: {total_paid} •<br> • Pago: {payment} </p>
-                      </div>
+                    <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <table cellpadding="0" cellspacing="0" width="100%" border="0" style="color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none;">
+                        <tr>
+                          <td style="padding:7px 0">
+                            <font size="2" face="Open-sans, sans-serif" color="#555454">
+                              <table class="table table-recap" bgcolor="#ffffff" style="width:100%;border-collapse:collapse">
+                                <!-- Title -->
+                                <tr>
+                                  <th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;"> Referencia</th>
+                                  <th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;"> Producto</th>
+                                  <th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;" width="17%">Precio unitario</th>
+                                  <th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;"> Cantidad</th>
+                                  <th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;" width="17%">Precio total</th>
+                                </tr>
+                                <tr>
+                                  <td colspan="5" style="border:1px solid #D6D4D4;text-align:center;color:#777;padding:7px 0"> &nbsp;&nbsp;{products} </td>
+                                </tr>
+                                <tr>
+                                  <td colspan="5" style="border:1px solid #D6D4D4;text-align:center;color:#777;padding:7px 0"> &nbsp;&nbsp;{discounts} </td>
+                                </tr>
+                                <tr class="conf_body">
+                                  <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="2" face="Open-sans, sans-serif" color="#555454">
+                                            <strong>Productos</strong>
+                                          </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#f8f8f8" align="right" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="2" face="Open-sans, sans-serif" color="#555454"> {total_products} </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr class="conf_body">
+                                  <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="2" face="Open-sans, sans-serif" color="#555454">
+                                            <strong>Descuentos</strong>
+                                          </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="2" face="Open-sans, sans-serif" color="#555454"> {total_discounts} </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr class="conf_body">
+                                  <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="2" face="Open-sans, sans-serif" color="#555454">
+                                            <strong>Embalaje de regalo</strong>
+                                          </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="2" face="Open-sans, sans-serif" color="#555454"> {total_wrapping} </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr class="conf_body">
+                                  <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="2" face="Open-sans, sans-serif" color="#555454">
+                                            <strong>Transporte</strong>
+                                          </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="2" face="Open-sans, sans-serif" color="#555454"> {total_shipping} </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr class="conf_body">
+                                  <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="2" face="Open-sans, sans-serif" color="#555454">
+                                            <strong>Impuestos totales pagados</strong>
+                                          </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="2" face="Open-sans, sans-serif" color="#555454"> {total_tax_paid} </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr class="conf_body">
+                                  <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="2" face="Open-sans, sans-serif" color="#555454">
+                                            <strong>Total pagado</strong>
+                                          </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #D6D4D4;color:#333;padding:7px 0">
+                                    <table class="table" style="width:100%;border-collapse:collapse">
+                                      <tr>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                        <td align="right" style="color:#333;padding:0">
+                                          <font size="4" face="Open-sans, sans-serif" color="#555454"> {total_paid} </font>
+                                        </td>
+                                        <td width="10" style="color:#333;padding:0">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </font>
+                          </td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>
               </div>
-              <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
             </td>
           </tr>
         </tbody>
       </table>
     </div>
     <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+  </div>
+  <!--[if mso | IE]>
           </td>
         </tr>
       </table>
       <![endif]-->
-
-
+  <!-- ORDER TABLE END -->
+  <!-- SECONDARY SHIPMENT START -->
+  <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
   <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
     <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+      <tbody>
+        <tr>
+          <td style="direction:ltr;font-size:0px;padding:0px 20px 0px 20px;text-align:center;">
+            <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:560px;"
+            >
+          <![endif]-->
+            <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                <tr>
+                  <td align="left" class="content-padding" style="font-size:0px;padding:0px;word-break:break-word;">
+                    <div style="font-family:arial;font-size:14px;line-height:150%;text-align:left;color:#000000;">
+                      <p style="padding: 0px 20px; font-weight: bold;">🚚 Información del envío</p>
+                      <p style="padding: 0px 20px;"> • Transportista: {carrier}<br> 
+                        <!-- La variable no funciona en este email -->
+                        <!-- • Localiza el envío: <a href="{followup}" style="text-decoration: none; color: #ED2772; font-weight: bold;">{followup}</a>. </p><br> -->
+                      <p style="padding: 0px 20px; font-weight: bold;">🏠 Dirección de entrega</p>
+                      <p style="padding: 0px 20px;"> {delivery_block_html}<br>
+                      </p><br>
+                      <p style="padding: 0px 20px; font-weight: bold;">📝 Dirección de facturación</p>
+                      <p style="padding: 0px 20px;"> {invoice_block_html}<br>
+                      </p><br>
+                      <!-- <p style="padding: 0px 20px; font-weight: bold;">ℹ Más info</p>
+                      <p style="padding: 0px 20px;"> • Revisa <a href="{order_history}" style="text-decoration: none; color: #ED2772; font-weight: bold;">tu pedido</a>.<br> • ¿Has comprado como invitado? Sigue tu pedido <a href="{seguimiento de invitado}" style="text-decoration: none; color: #ED2772; font-weight: bold;">desde aquí</a>. </p> -->
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+  <!-- SECONDARY SHIPMENT END -->
+  <!-- PROMO START -->
+  <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+  <div style="margin:0px auto;max-width:600px;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
       <tbody>
         <tr>
           <td style="direction:ltr;font-size:0px;padding:0px 0px 0px 0px;text-align:center;">
@@ -999,28 +1029,79 @@
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:600px;"
+               class="" style="width:600px;"
             >
           <![endif]-->
-            <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                <tr>
-                  <td align="left" class="content-padding" style="font-size:0px;padding:0px;word-break:break-word;">
-                    <div style="font-family:arial;font-size:14px;line-height:150%;text-align:left;color:#000000;">
-                      <p style="padding: 0px 20px; font-weight: bold;">🚚 Información del envío</p>
-                      <p style="padding: 0px 20px;"> • Transportista: {carrier}<br> • Localiza el envío: <a href="{followup}" style="text-decoration: none; color: #ED2772; font-weight: bold;">{followup}</a>. </p><br>
-                      <p style="padding: 0px 20px; font-weight: bold;">🏠 Dirección de entrega</p>
-                      <p style="padding: 0px 20px;"> {delivery_block_html}<br>
-                      </p><br>
-                      <p style="padding: 0px 20px; font-weight: bold;">📝 Dirección de facturación</p>
-                      <p style="padding: 0px 20px;"> {invoice_block_html}<br>
-                      </p><br>
-                      <p style="padding: 0px 20px; font-weight: bold;">ℹ Más info</p>
-                      <p style="padding: 0px 20px;">• Localiza tu <a href="{followup}" style="text-decoration: none; color: #ED2772; font-weight: bold;">envío</a>.<br />• Revisa <a href="{order_history}" style="text-decoration: none; color: #ED2772; font-weight: bold;">tu pedido</a>.<br> • ¿Has comprado como invitado? Sigue tu pedido <a href="{guest_tracking_url}" style="text-decoration: none; color: #ED2772; font-weight: bold;">desde aquí</a>. </p>
-                    </div>
-                  </td>
-                </tr>
-              </table>
+            <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+              <!--[if mso | IE]>
+        <table
+           border="0" cellpadding="0" cellspacing="0" role="presentation"
+        >
+          <tr>
+        
+              <td
+                 style="vertical-align:top;width:300px;"
+              >
+              <![endif]-->
+              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0px 0px 0px 0px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                          <tr>
+                            <td align="center" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                <tbody>
+                                  <tr>
+                                    <td style="width:300px;">
+                                      <a href="https://fantasynails.es/es/69-esmaltes-permanentes" target="_blank" style="text-decoration: none; color: #ED2772; font-weight: bold;">
+                                        <img alt="Esmaltes" height="auto" src="https://fantasynails.es/fn_content/email_fn_ps/assets/promo/esmalte.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="300">
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+              </td>
+              
+              <td
+                 style="vertical-align:top;width:300px;"
+              >
+              <![endif]-->
+              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="center" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <tbody>
+                          <tr>
+                            <td style="width:300px;">
+                              <a href="https://fantasynails.es/es/3-acrilicos" target="_blank" style="text-decoration: none; color: #ED2772; font-weight: bold;">
+                                <img alt="Acrílico" height="auto" src="https://fantasynails.es/fn_content/email_fn_ps/assets/promo/acrilico.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="300">
+                              </a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+              </td>
+              
+          </tr>
+          </table>
+        <![endif]-->
             </div>
             <!--[if mso | IE]>
             </td>
@@ -1045,506 +1126,436 @@
         <tr>
           <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
       <![endif]-->
-   
-<div style="margin: 0px auto; max-width: 600px;">
-  <table role="presentation" style="width: 100%;" cellspacing="0" cellpadding="0" border="0" align="center">
-  <tbody>
-  <tr>
-  <td style="direction: ltr; font-size: 0px; padding: 0px 0px 0px 0px; text-align: center;"><!-- [if mso | IE]>
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                  
-          <tr>
-        
-              <td
-                 class="" style="width:600px;"
-              >
-            <![endif]-->
-  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size: 0; line-height: 0; text-align: left; display: inline-block; width: 100%; direction: ltr;"><!-- [if mso | IE]>
-          <table
-             border="0" cellpadding="0" cellspacing="0" role="presentation"
-          >
-            <tr>
-          
-                <td
-                   style="vertical-align:top;width:300px;"
-                >
-                <![endif]-->
-  <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 50%;">
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="vertical-align: top; padding: 0px 0px 0px 0px;">
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="font-size: 0px; padding: 0px 0px 0px 0px; word-break: break-word;" align="center">
-  <table role="presentation" style="border-collapse: collapse; border-spacing: 0px;" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="width: 300px;"><a href="https://fantasynails.es/es/69-esmaltes-permanentes" target="_blank" style="text-decoration: none; color: #ed2772; font-weight: bold;"> <img alt="Esmaltes" src="https://fantasynails.es/fn_content/email_fn_ps/assets/promo/esmalte.jpg" style="border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;" width="300" height="auto" /> </a></td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-                </td>
+  <div style="margin:0px auto;max-width:600px;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+      <tbody>
+        <tr>
+          <td style="direction:ltr;font-size:0px;padding:0px 0px 0px 0px;text-align:center;">
+            <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
-                <td
-                   style="vertical-align:top;width:300px;"
-                >
-                <![endif]-->
-  <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 50%;">
-  <table role="presentation" style="vertical-align: top;" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="font-size: 0px; padding: 0px 0px 0px 0px; word-break: break-word;" align="center">
-  <table role="presentation" style="border-collapse: collapse; border-spacing: 0px;" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="width: 300px;"><a href="https://fantasynails.es/es/3-acrilicos" target="_blank" style="text-decoration: none; color: #ed2772; font-weight: bold;"> <img alt="Acrílico" src="https://fantasynails.es/fn_content/email_fn_ps/assets/promo/acrilico.jpg" style="border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;" width="300" height="auto" /> </a></td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-                </td>
-                
-            </tr>
-            </table>
-          <![endif]--></div>
-  <!-- [if mso | IE]>
-              </td>
-            
-          </tr>
-        
-                    </table>
-                  <![endif]--></td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-            </td>
-          </tr>
-        </table>
-        
+        <tr>
+      
+            <td
+               class="" style="width:600px;"
+            >
+          <![endif]-->
+            <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+              <!--[if mso | IE]>
         <table
-           align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
-        >
-          <tr>
-            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
-        <![endif]-->
-  <div style="margin: 0px auto; max-width: 600px;">
-  <table role="presentation" style="width: 100%;" cellspacing="0" cellpadding="0" border="0" align="center">
-  <tbody>
-  <tr>
-  <td style="direction: ltr; font-size: 0px; padding: 0px 0px 0px 0px; text-align: center;"><!-- [if mso | IE]>
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                  
-          <tr>
-        
-              <td
-                 class="" style="width:600px;"
-              >
-            <![endif]-->
-  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size: 0; line-height: 0; text-align: left; display: inline-block; width: 100%; direction: ltr;"><!-- [if mso | IE]>
-          <table
-             border="0" cellpadding="0" cellspacing="0" role="presentation"
-          >
-            <tr>
-          
-                <td
-                   style="vertical-align:top;width:300px;"
-                >
-                <![endif]-->
-  <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 50%;">
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="vertical-align: top; padding: 0px 0px 0px 0px;">
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="font-size: 0px; padding: 0px 0px 0px 0px; word-break: break-word;" align="center">
-  <table role="presentation" style="border-collapse: collapse; border-spacing: 0px;" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="width: 300px;"><a href="https://fantasynails.es/es/47-acrigel" target="_blank" style="text-decoration: none; color: #ed2772; font-weight: bold;"> <img alt="Acrigel" src="https://fantasynails.es/fn_content/email_fn_ps/assets/promo/acrigel.jpg" style="border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;" width="300" height="auto" /> </a></td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-                </td>
-                
-                <td
-                   style="vertical-align:top;width:300px;"
-                >
-                <![endif]-->
-  <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 50%;">
-  <table role="presentation" style="vertical-align: top;" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="font-size: 0px; padding: 0px 0px 0px 0px; word-break: break-word;" align="center">
-  <table role="presentation" style="border-collapse: collapse; border-spacing: 0px;" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="width: 300px;"><a href="https://fantasynails.es/es/51-gel" target="_blank" style="text-decoration: none; color: #ed2772; font-weight: bold;"> <img alt="Gel" src="https://fantasynails.es/fn_content/email_fn_ps/assets/promo/gel.jpg" style="border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;" width="300" height="auto" /> </a></td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-                </td>
-                
-            </tr>
-            </table>
-          <![endif]--></div>
-  <!-- [if mso | IE]>
-              </td>
-            
-          </tr>
-        
-                    </table>
-                  <![endif]--></td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-            </td>
-          </tr>
-        </table>
-        <![endif]--> <!-- SHOP & LOOKS --> <!-- [if mso | IE]>
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
-        >
-          <tr>
-            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
-        <![endif]-->
-  <div style="background: #000000; background-color: #000000; margin: 0px auto; max-width: 600px;">
-  <table role="presentation" style="background: #000000; background-color: #000000; width: 100%;" cellspacing="0" cellpadding="0" border="0" align="center">
-  <tbody>
-  <tr>
-  <td style="direction: ltr; font-size: 0px; padding: 10px 0px 10px 0px; text-align: center;"><!-- [if mso | IE]>
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                  
-          <tr>
-        
-              <td
-                 class="" style="vertical-align:top;width:240px;"
-              >
-            <![endif]-->
-  <div class="mj-column-per-40 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="vertical-align: top; padding: 0px 0px 0px 0px;">
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="font-size: 0px; padding: 0px 0px 0px 0px; word-break: break-word;" align="center">
-  <table role="presentation" style="border-collapse: collapse; border-spacing: 0px;" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="width: 240px;"><a href="https://fantasynails.es/" target="_blank" style="text-decoration: none; color: #ed2772; font-weight: bold;"> <img alt="Visita nuestra tienda" src="https://fantasynails.es/fn_content/email_fn_ps/assets/footer/footer-cta-tienda.jpg" style="border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;" width="240" height="auto" /> </a></td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-              </td>
-            
-              <td
-                 class="" style="vertical-align:top;width:240px;"
-              >
-            <![endif]-->
-  <div class="mj-column-per-40 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="vertical-align: top; padding: 0px 0px 0px 0px;">
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="font-size: 0px; padding: 0px 0px 0px 0px; word-break: break-word;" align="center">
-  <table role="presentation" style="border-collapse: collapse; border-spacing: 0px;" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="width: 240px;"><a href="https://fantasynails.es/blog/looks" target="_blank" style="text-decoration: none; color: #ed2772; font-weight: bold;"> <img alt="Descubre nuevas tendencias" src="https://fantasynails.es/fn_content/email_fn_ps/assets/footer/footer-cta-looks.jpg" style="border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;" width="240" height="auto" /> </a></td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-              </td>
-            
-          </tr>
-        
-                    </table>
-                  <![endif]--></td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-            </td>
-          </tr>
-        </table>
-        <![endif]--> <!-- SOCIAL --> <!-- [if mso | IE]>
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
-        >
-          <tr>
-            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
-        <![endif]-->
-  <div style="background: #000000; background-color: #000000; margin: 0px auto; max-width: 600px;">
-  <table role="presentation" style="background: #000000; background-color: #000000; width: 100%;" cellspacing="0" cellpadding="0" border="0" align="center">
-  <tbody>
-  <tr>
-  <td style="direction: ltr; font-size: 0px; padding: 0px 0px 10px 0px; text-align: center;"><!-- [if mso | IE]>
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                  
-          <tr>
-        
-              <td
-                 class="" style="vertical-align:top;width:600px;"
-              >
-            <![endif]-->
-  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
-  <table role="presentation" style="vertical-align: top;" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="font-size: 0px; padding: 10px 25px; word-break: break-word;" align="center"><!-- [if mso | IE]>
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+           border="0" cellpadding="0" cellspacing="0" role="presentation"
         >
           <tr>
         
-                <td>
+              <td
+                 style="vertical-align:top;width:300px;"
+              >
               <![endif]-->
-  <table role="presentation" style="float: none; display: inline-table;" cellspacing="0" cellpadding="0" border="0" align="center">
-  <tbody>
-  <tr>
-  <td style="padding: 4px; vertical-align: middle;">
-  <table role="presentation" style="background: #000000; border-radius: 3px; width: 40px;" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="padding: 7px; font-size: 0; height: 40px; vertical-align: middle; width: 40px;"><a href="https://fantasynails.es/" target="_blank" style="text-decoration: none; color: #ed2772; font-weight: bold;"> <img alt="web" src="https://fantasynails.es/fn_content/email_fn_ps/assets/footer/fantasy.png" style="border-radius: 3px; display: block;" width="40" height="40" /> </a></td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  <!-- [if mso | IE]>
-                </td>
+              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0px 0px 0px 0px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                          <tr>
+                            <td align="center" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                <tbody>
+                                  <tr>
+                                    <td style="width:300px;">
+                                      <a href="https://fantasynails.es/es/47-acrigel" target="_blank" style="text-decoration: none; color: #ED2772; font-weight: bold;">
+                                        <img alt="Acrigel" height="auto" src="https://fantasynails.es/fn_content/email_fn_ps/assets/promo/acrigel.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="300">
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+              </td>
               
-                <td>
+              <td
+                 style="vertical-align:top;width:300px;"
+              >
               <![endif]-->
-  <table role="presentation" style="float: none; display: inline-table;" cellspacing="0" cellpadding="0" border="0" align="center">
-  <tbody>
-  <tr>
-  <td style="padding: 4px; vertical-align: middle;">
-  <table role="presentation" style="background: #000000; border-radius: 3px; width: 40px;" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="padding: 7px; font-size: 0; height: 40px; vertical-align: middle; width: 40px;"><a href="https://www.facebook.com/fantasynails.es/" target="_blank" style="text-decoration: none; color: #ed2772; font-weight: bold;"> <img alt="facebook" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png" style="border-radius: 3px; display: block;" width="40" height="40" /> </a></td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  <!-- [if mso | IE]>
-                </td>
+              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tr>
+                    <td align="center" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                        <tbody>
+                          <tr>
+                            <td style="width:300px;">
+                              <a href="https://fantasynails.es/es/51-gel" target="_blank" style="text-decoration: none; color: #ED2772; font-weight: bold;">
+                                <img alt="Gel" height="auto" src="https://fantasynails.es/fn_content/email_fn_ps/assets/promo/gel.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="300">
+                              </a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+              </td>
               
-                <td>
-              <![endif]-->
-  <table role="presentation" style="float: none; display: inline-table;" cellspacing="0" cellpadding="0" border="0" align="center">
-  <tbody>
-  <tr>
-  <td style="padding: 4px; vertical-align: middle;">
-  <table role="presentation" style="background: #000000; border-radius: 3px; width: 40px;" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="padding: 7px; font-size: 0; height: 40px; vertical-align: middle; width: 40px;"><a href="https://www.instagram.com/fantasy_nails_europe/" target="_blank" style="text-decoration: none; color: #ed2772; font-weight: bold;"> <img alt="instagram" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/instagram.png" style="border-radius: 3px; display: block;" width="40" height="40" /> </a></td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  <!-- [if mso | IE]>
-                </td>
-              
-                <td>
-              <![endif]-->
-  <table role="presentation" style="float: none; display: inline-table;" cellspacing="0" cellpadding="0" border="0" align="center">
-  <tbody>
-  <tr>
-  <td style="padding: 4px; vertical-align: middle;">
-  <table role="presentation" style="background: #000000; border-radius: 3px; width: 40px;" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="padding: 7px; font-size: 0; height: 40px; vertical-align: middle; width: 40px;"><a href="https://www.youtube.com/channel/UCyqyeU5BqoUn_v6f1twAI8A" target="_blank" style="text-decoration: none; color: #ed2772; font-weight: bold;"> <img alt="youtube" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/youtube.png" style="border-radius: 3px; display: block;" width="40" height="40" /> </a></td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  <!-- [if mso | IE]>
-                </td>
-              
-            </tr>
+          </tr>
           </table>
-        <![endif]--></td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-              </td>
-            
-          </tr>
-        
-                    </table>
-                  <![endif]--></td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-            </td>
-          </tr>
-        </table>
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
-        >
-          <tr>
-            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
         <![endif]-->
-  <div style="margin: 0px auto; max-width: 600px;">
-  <table role="presentation" style="width: 100%;" cellspacing="0" cellpadding="0" border="0" align="center">
-  <tbody>
-  <tr>
-  <td style="direction: ltr; font-size: 0px; padding: 20px 0px 20px 0px; text-align: center;"><!-- [if mso | IE]>
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                  
-          <tr>
-        
-              <td
-                 class="" style="vertical-align:top;width:600px;"
-              >
+            </div>
+            <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+  <!-- PROMO END -->
+  <!-- FOOTER START -->
+  <!-- SHOP & LOOKS -->
+  <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+  <div style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
+      <tbody>
+        <tr>
+          <td style="direction:ltr;font-size:0px;padding:10px 0px 10px 0px;text-align:center;">
+            <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:240px;"
+            >
+          <![endif]-->
+            <div class="mj-column-per-40 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                <tbody>
+                  <tr>
+                    <td style="vertical-align:top;padding:0px 0px 0px 0px;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                        <tr>
+                          <td align="center" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                              <tbody>
+                                <tr>
+                                  <td style="width:240px;">
+                                    <a href="https://fantasynails.es/" target="_blank" style="text-decoration: none; color: #ED2772; font-weight: bold;">
+                                      <img alt="Visita nuestra tienda" height="auto" src="https://fantasynails.es/fn_content/email_fn_ps/assets/footer/footer-cta-tienda.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="240">
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:top;width:240px;"
+            >
+          <![endif]-->
+            <div class="mj-column-per-40 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                <tbody>
+                  <tr>
+                    <td style="vertical-align:top;padding:0px 0px 0px 0px;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                        <tr>
+                          <td align="center" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                              <tbody>
+                                <tr>
+                                  <td style="width:240px;">
+                                    <a href="https://fantasynails.es/blog/looks" target="_blank" style="text-decoration: none; color: #ED2772; font-weight: bold;">
+                                      <img alt="Descubre nuevas tendencias" height="auto" src="https://fantasynails.es/fn_content/email_fn_ps/assets/footer/footer-cta-looks.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="240">
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+  <!-- SOCIAL -->
+  <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+  <div style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
+      <tbody>
+        <tr>
+          <td style="direction:ltr;font-size:0px;padding:0px 0px 10px 0px;text-align:center;">
+            <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                <tr>
+                  <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                    <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+      >
+        <tr>
+      
+              <td>
             <![endif]-->
-  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
-  <table role="presentation" style="vertical-align: top;" width="100%" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td class="footer-text center-text" style="font-size: 0px; padding: 0; word-break: break-word;" align="left">
-  <div style="font-family: arial; font-size: 10px; color: #848484; text-align: center;">
-  <p style="margin: 5px 0px; padding: 0px;">¿Tienes cualquier duda? <a href="mailto:info@fantasynails.es" style="text-decoration: none; color: #656565; font-weight: bold;">Contacta con nosotros</a></p>
-  </div>
-  </td>
-  </tr>
-  <tr>
-  <td class="footer-text center-text" style="font-size: 0px; padding: 0; word-break: break-word;" align="left">
-  <div style="font-family: arial; font-size: 10px; color: #848484; text-align: center;">
-  <p style="margin: 5px 0px; padding: 0px;">Si quieres dejar de recibir estos emails, <a href="#" style="text-decoration: none; color: #656565; font-weight: bold;">date de baja aquí</a></p>
-  </div>
-  </td>
-  </tr>
-  <tr>
-  <td class="footer-text center-text" style="font-size: 0px; padding: 0; word-break: break-word;" align="left">
-  <div style="font-family: arial; font-size: 10px; color: #848484; text-align: center;">
-  <p style="margin: 5px 0px; padding: 0px;"><a href="https://fantasynails.es/" style="text-decoration: none; color: #656565; font-weight: bold;">www.fantasynails.es</a> // <a href="mailto:info@fantasynails.es" style="text-decoration: none; color: #656565; font-weight: bold;">info@fantasynails.es</a></p>
-  </div>
-  </td>
-  </tr>
-  <tr>
-  <td style="font-size: 0px; padding: 15px 10px 15px 0px; word-break: break-word;" align="center">
-  <table role="presentation" style="border-collapse: collapse; border-spacing: 0px;" cellspacing="0" cellpadding="0" border="0">
-  <tbody>
-  <tr>
-  <td style="width: 50px;"><img alt="logo-fantasy" src="https://fantasynails.es/fn_content/email_fn_ps/assets/footer/fantasy-grey.png" style="border: none; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px;" width="50" height="auto" /></td>
-  </tr>
-  </tbody>
-  </table>
-  </td>
-  </tr>
-  <tr>
-  <td class="footer-text center-text" style="font-size: 0px; padding: 0px 40px; word-break: break-word;" align="left">
-  <div style="font-family: arial; font-size: 10px; color: #848484; text-align: center;">
-  <p style="margin: 5px 0px; padding: 0px;">Calle Pasaje Graham Bell, 10. 29590 Málaga<br />Parque Tecnológico De Andalucia. <br />© 2020 Fantasy Nails Europe. Todos los derechos reservados.</p>
-  </div>
-  </td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                      <tr>
+                        <td style="padding:4px;vertical-align:middle;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;border-radius:3px;width:40px;">
+                            <tr>
+                              <td style="padding:7px;font-size:0;height:40px;vertical-align:middle;width:40px;">
+                                <a href="https://fantasynails.es/" target="_blank" style="text-decoration: none; color: #ED2772; font-weight: bold;">
+                                  <img alt="web" height="40" src="https://fantasynails.es/fn_content/email_fn_ps/assets/footer/fantasy.png" style="border-radius:3px;display:block;" width="40">
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                      <tr>
+                        <td style="padding:4px;vertical-align:middle;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;border-radius:3px;width:40px;">
+                            <tr>
+                              <td style="padding:7px;font-size:0;height:40px;vertical-align:middle;width:40px;">
+                                <a href="https://www.facebook.com/fantasynails.es/" target="_blank" style="text-decoration: none; color: #ED2772; font-weight: bold;">
+                                  <img alt="facebook" height="40" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png" style="border-radius:3px;display:block;" width="40">
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                      <tr>
+                        <td style="padding:4px;vertical-align:middle;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;border-radius:3px;width:40px;">
+                            <tr>
+                              <td style="padding:7px;font-size:0;height:40px;vertical-align:middle;width:40px;">
+                                <a href="https://www.instagram.com/fantasy_nails_europe/" target="_blank" style="text-decoration: none; color: #ED2772; font-weight: bold;">
+                                  <img alt="instagram" height="40" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/instagram.png" style="border-radius:3px;display:block;" width="40">
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                      <tr>
+                        <td style="padding:4px;vertical-align:middle;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;border-radius:3px;width:40px;">
+                            <tr>
+                              <td style="padding:7px;font-size:0;height:40px;vertical-align:middle;width:40px;">
+                                <a href="https://www.youtube.com/channel/UCyqyeU5BqoUn_v6f1twAI8A" target="_blank" style="text-decoration: none; color: #ED2772; font-weight: bold;">
+                                  <img alt="youtube" height="40" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/youtube.png" style="border-radius:3px;display:block;" width="40">
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!--[if mso | IE]>
               </td>
             
           </tr>
-        
-                    </table>
-                  <![endif]--></td>
-  </tr>
-  </tbody>
-  </table>
-  </div>
-  <!-- [if mso | IE]>
-            </td>
-          </tr>
         </table>
-        <![endif]--></div>
-      </div>
-  </body>
-  
-  </html>
+      <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+  <!-- FOOTER END -->
+  <!-- POST FOOTER START -->
+  <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+  <div style="margin:0px auto;max-width:600px;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+      <tbody>
+        <tr>
+          <td style="direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+            <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                <tr>
+                  <td align="left" class="footer-text center-text" style="font-size:0px;padding:0;word-break:break-word;">
+                    <div style="font-family: arial; font-size: 10px; color: #848484; text-align: center;">
+                      <p style="margin: 5px 0px; padding: 0px;"> ¿Tienes cualquier duda? <a href="mailto:info@fantasynails.es" style="text-decoration: none; color: #656565; font-weight: bold;">Contacta con nosotros</a>
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" class="footer-text center-text" style="font-size:0px;padding:0;word-break:break-word;">
+                    <div style="font-family: arial; font-size: 10px; color: #848484; text-align: center;">
+                      <p style="margin: 5px 0px; padding: 0px;"> Si quieres dejar de recibir estos emails, <a href="#" style="text-decoration: none; color: #656565; font-weight: bold;">date de baja aquí</a>
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" class="footer-text center-text" style="font-size:0px;padding:0;word-break:break-word;">
+                    <div style="font-family: arial; font-size: 10px; color: #848484; text-align: center;">
+                      <p style="margin: 5px 0px; padding: 0px;">
+                        <a href="https://fantasynails.es/" style="text-decoration: none; color: #656565; font-weight: bold;">www.fantasynails.es</a> // <a href="mailto:info@fantasynails.es" style="text-decoration: none; color: #656565; font-weight: bold;">info@fantasynails.es</a>
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" class style="font-size:0px;padding:10px 25px;padding-top:15px;padding-right:10px;padding-bottom:15px;padding-left:0px;word-break:break-word;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <tbody>
+                        <tr>
+                          <td style="width:50px;">
+                            <img alt="logo-fantasy" height="auto" src="https://fantasynails.es/fn_content/email_fn_ps/assets/footer/fantasy-grey.png" style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="50">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" class="footer-text center-text" style="font-size:0px;padding:0px 40px;word-break:break-word;">
+                    <div style="font-family: arial; font-size: 10px; color: #848484; text-align: center;">
+                      <p style="margin: 5px 0px; padding: 0px;"> Calle Pasaje Graham Bell, 10. 29590 Málaga<br>Parque Tecnológico De Andalucia. <br>© 2020 Fantasy Nails Europe. Todos los derechos reservados. </p>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+  <!-- POST FOOTER END -->
+</body>
+
+</html>
